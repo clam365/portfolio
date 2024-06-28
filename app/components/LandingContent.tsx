@@ -1,3 +1,5 @@
+import ProjectSection from "@/app/components/ProjectSection";
+
 export default function LandingContent() {
     return (
         <div className={"p-10 sm:pt-0 xl:pt-10 md:pt-0 lg:pt-10 "}>
@@ -13,6 +15,7 @@ export default function LandingContent() {
                 </p>
             </div>
             <hr className={"mt-10"}/>
+            <ProjectSection/>
         </div>
     );
 }
