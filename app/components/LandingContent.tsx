@@ -21,7 +21,6 @@ export default function LandingContent() {
             <hr className={"mt-10"}/>
             <ProjectSection/>
             <UserInterfaceFun/>
-
             <Footer/>
         </div>
     );
