@@ -6,12 +6,15 @@ const Sidebar = () => {
             <div className="lg:hidden flex justify-between items-center p-5">
                     <div>
                         <Link href="/">
-                            <Image src="/saturn.png" alt="logo" width={87} height={48} className="rounded-lg mb-6"/>
+                            <Image src="/choso2.png" alt="logo" width={87} height={48} className="rounded-lg mb-6"/>
                         </Link>
                     </div>
                     <div className="flex">
                         <Link href={"/about"}>
                             <h1 className="font-semibold text-lg mb-4 hover:text-gray-400 transition mr-5">About</h1>
+                        </Link>
+                        <Link href={"/photography"}>
+                            <h1 className="font-semibold text-lg mb-4 hover:text-gray-400 transition mr-5">Photography</h1>
                         </Link>
                         <Link href={"/cv"}>
                             <h1 className="font-semibold text-lg mb-6 hover:text-gray-400 transition">CV</h1>
@@ -26,7 +29,7 @@ const Sidebar = () => {
             <aside className=" w-64 h-screen p-12 border-r border-neutral-200 lg:block hidden">
                 <nav>
                     <div>
-                        <Link href={"/"}><Image src={"/saturn.png"} alt={"logo"} width={87} height={48}
+                        <Link href={"/"}><Image src={"/choso2.png"} alt={"logo"} width={87} height={48}
                                                 className={"rounded-lg mb-6"}/></Link>
 
                         <Link href={"/about"}>

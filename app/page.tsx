@@ -3,9 +3,9 @@ import Sidebar from "@/app/components/Sidebar";
 
 export default function Home() {
   return (
-      <div>
+      <div className={"flex"}>
         <Sidebar/>
-
+        hello
       </div>
 
   );
