@@ -60,7 +60,7 @@ const Sidebar = () => {
                     <hr className={"mb-6"}/>
                     <div>
                         <h1 className="text-gray-400 text-sm mb-2 font-semibold">CONTACT</h1>
-                        <p className="text-sm mb-2 transition  transform hover:translate-x-1 hover:text-gray-400">Email</p>
+                        <a href="mailto:christpherlam365@gmail.com"><p className="text-sm mb-2 transition  transform hover:translate-x-1 hover:text-gray-400">Email</p></a>
                         <Link href={"https://www.linkedin.com/in/chrislam365"}><p
                             className="text-sm mb-2 transition  transform hover:translate-x-1 hover:text-gray-400">LinkedIn</p>
                         </Link>

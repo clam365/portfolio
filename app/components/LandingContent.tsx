@@ -12,7 +12,7 @@ export default function LandingContent() {
                 <h1 className="font-semibold text-lg md:text-xl lg:text-2xl mb-5">
                     Hello there!
                 </h1>
-                <p className="font-bold text-xl md:text-2xl lg:text-4xl">
+                <p className="font-semibold text-xl md:text-2xl lg:text-4xl">
                     Chris is a full stack software engineer with a focus in frontend and UI/UX work, crafting meaningful
                     user interfaces that feel natural and free-flowing. He currently
                     is an intern with the Air Force.
@@ -21,8 +21,7 @@ export default function LandingContent() {
             <hr className={"mt-10"}/>
             <ProjectSection/>
             <UserInterfaceFun/>
-            <UserInterfaceFun/>
-            <UserInterfaceFun/>
+
             <Footer/>
         </div>
     );
