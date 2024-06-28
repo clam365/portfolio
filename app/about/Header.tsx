@@ -4,7 +4,6 @@ export default function Header() {
             <h1 className={"font-bold text-9xl "}>Christopher</h1>
             <div className={"flex items-center"}>
                 <h1 className={"font-bold text-9xl"}>Lam&nbsp;</h1>
-
                 <h1 className={"font-bold text-4xl"}> クリス</h1>
             </div>
         </div>
