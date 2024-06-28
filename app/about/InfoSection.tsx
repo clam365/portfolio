@@ -32,6 +32,8 @@ export default function InfoSection() {
                         and goal are to
                         improve designs holistically, focusing on emotion, functionality, and aesthetics.
                     </p>
+                    <br/>
+                    <p className={"text-sm"}>I also like to olympic weightlift, watch anime, and go on adventures!</p>
                 </div>
             </div>
             <hr/>

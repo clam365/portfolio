@@ -3,6 +3,7 @@ import Sidebar from "@/app/components/Sidebar";
 import InfoSection from "@/app/about/InfoSection";
 import Header from "@/app/about/Header";
 import Education from "@/app/about/Education";
+import MyPhilosophy from "@/app/about/MyPhilosophy";
 
 
 export default function page() {
@@ -13,7 +14,7 @@ export default function page() {
                 <Header/>
                 <InfoSection/>
                 <Education/>
-
+                <MyPhilosophy/>
             </div>
         </div>
     );
