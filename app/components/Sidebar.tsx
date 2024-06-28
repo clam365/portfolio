@@ -3,7 +3,7 @@ import Image from "next/image";
 const Sidebar = () => {
     return (
         <div>
-            <div className="lg:hidden flex justify-between items-center p-5">
+            <div className="lg:hidden p-5 flex justify-between m-auto items-center">
                     <div>
                         <Link href="/">
                             <Image src="/choso2.png" alt="logo" width={87} height={48} className="rounded-lg mb-6"/>
@@ -20,23 +20,25 @@ const Sidebar = () => {
                             <h1 className="font-semibold text-lg mb-6 hover:text-gray-400 transition">CV</h1>
                         </Link>
                     </div>
-
             </div>
 
             {/* Mobile View */}
 
             {/* Sidebar on Desktop/Laptop */}
-            <aside className=" w-64 h-screen p-12 border-r border-neutral-200 lg:block hidden">
+            <aside className=" w-64 h-fit p-12 border-r border-neutral-200 lg:block hidden ">
                 <nav>
                     <div>
                         <Link href={"/"}><Image src={"/choso2.png"} alt={"logo"} width={87} height={48}
                                                 className={"rounded-lg mb-6"}/></Link>
 
                         <Link href={"/about"}>
-                            <h1 className="font-semibold text-2xl mb-4 hover:text-gray-400 transition">About</h1>
+                            <h1 className="font-semibold text-xl mb-4 hover:text-gray-400 transition">About</h1>
+                        </Link>
+                        <Link href={"/photography"}>
+                            <h1 className="font-semibold text-xl mb-4 hover:text-gray-400 transition">Photography</h1>
                         </Link>
                         <Link href={"/cv"}>
-                        <h1 className="font-semibold text-2xl mb-6 hover:text-gray-400 transition">CV</h1>
+                        <h1 className="font-semibold text-xl mb-6 hover:text-gray-400 transition">CV</h1>
                         </Link>
                     </div>
                     <hr className={"mb-6"}/>
