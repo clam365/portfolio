@@ -3,13 +3,14 @@ import Image from "next/image";
 const Sidebar = () => {
     return (
         <div>
-            <div className="lg:hidden p-5 flex justify-between m-auto items-center">
+            {/* Mobile View */}
+            <div className="lg:hidden p-5 flex justify-between m-auto items-center ">
                     <div>
                         <Link href="/">
                             <Image src="/choso2.png" alt="logo" width={87} height={48} className="rounded-lg mb-6"/>
                         </Link>
                     </div>
-                    <div className="flex">
+                    <div className="flex ">
                         <Link href={"/about"}>
                             <h1 className="font-semibold text-lg mb-4 hover:text-gray-400 transition mr-5">About</h1>
                         </Link>
@@ -22,7 +23,7 @@ const Sidebar = () => {
                     </div>
             </div>
 
-            {/* Mobile View */}
+
 
             {/* Sidebar on Desktop/Laptop */}
             <aside className=" w-64 h-fit p-12 border-r border-neutral-200 lg:block hidden ">
