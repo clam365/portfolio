@@ -3,25 +3,28 @@ import styles from './page.module.css'
 import { useState } from 'react';
 import Project from './Project';
 import Modal from './Modal';
+import Link from "next/link";
 
 const projects = [
     {
         title: "IQP DCT",
         src: "dct.png",
-        color: "#0D0D0D"
+        color: "#121212",
+        linkTo: "/iqpDCT"
     },
     {
         title: "MGB Kiosk",
         src: "cs3733.JPG",
-        color: "#e0e0e0"
+        color: "#e0e0e0",
+        linkTo: "/mgb-kiosk"
     },
     {
         title: "Spotify Clone",
         src: "spotify.JPG",
-        color: "#22c55e"
+        color: "#22c55e",
+        linkTo: "/spotify-clone"
     },
 ]
-
 
 export default function Page() {
 
@@ -32,7 +35,11 @@ export default function Page() {
             <div className={styles.body}>
                 {
                     projects.map( (project, index) => {
-                        return <Project index={index} title={project.title} setModal={setModal} key={index}/>
+                        return (
+                                <Link href={project.linkTo} key={index}>
+                                    <Project index={index} title={project.title} link={project.linkTo} setModal={setModal} key={index}/>
+                                </Link>
+                            );
                     })
                 }
             </div>
