@@ -6,6 +6,7 @@ export default function ProjectSection() {
                 CRAFT
             </h1>
             <ProjectContent/>
+            <hr/>
         </div>
     );
 }

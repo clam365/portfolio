@@ -1,7 +1,9 @@
 import ProjectSection from "@/app/components/ProjectSection";
 
+
 export default function LandingContent() {
     return (
+
         <div className={"p-10 sm:pt-0 xl:pt-10 md:pt-0 lg:pt-10 "}>
             {/* Introduction */}
             <div className={"text-transparent bg-clip-text bg-gradient-to-r from-gray-400 to-black"}>
