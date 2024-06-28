@@ -3,15 +3,21 @@ import Image from "next/image";
 export default function InfoSection() {
     return (
         <div>
-            <div className="flex mt-10">
-                <div className="relative flex-shrink-0 w-[200px] h-[300px] mb-8">
-                    <Image src="/vietnam.jpg" alt="Vietnam!" layout="fill"
-                           className="rounded-lg object-cover drop-shadow-sm"/>
-                    <div
-                        className="absolute inset-0 bg-gradient-to-br from-white/100 to-transparent rounded-lg"></div>
+            <div className="flex flex-col sm:flex-row mt-10 mb-10">
+                {/* Image Section */}
+                <div className="relative flex-shrink-0 w-[200px] h-[300px] mr-12 mb-8 hidden xl:block">
+                    <Image
+                        src="/vietnam.jpg"
+                        alt="Vietnam!"
+                        layout="fill"
+                        className="rounded-lg object-cover drop-shadow-sm"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-br from-white/100 to-transparent rounded-lg"/>
                 </div>
-                <div className="ml-12 flex-1">
-                    <h1 className="font-semibold text-gray-400 text-sm mb-4 tracking-widest">INFO</h1>
+
+                {/* Text Section */}
+                <div className="flex-1">
+                    <h1 className="font-semibold text-green-600 text-sm mb-4 tracking-widest">INFO</h1>
                     <p className="text-sm">
                         I am a software engineer in Greater Boston, Massachusetts, specializing in frontend and
                         UI/UX development.
@@ -21,7 +27,7 @@ export default function InfoSection() {
                         Star Wars, and manipulating online tools like Photoshop.
                     </p>
                     <br/>
-                    <p className={"text-sm"}>
+                    <p className="text-sm">
                         During my sophomore year of college, I took on the role of lead frontend developer for my
                         Software
                         Engineering team.
@@ -33,11 +39,10 @@ export default function InfoSection() {
                         improve designs holistically, focusing on emotion, functionality, and aesthetics.
                     </p>
                     <br/>
-                    <p className={"text-sm"}>I also like to olympic weightlift, watch anime, and go on adventures!</p>
+                    <p className="text-sm">I also like to olympic weightlift, watch anime, and go on adventures!</p>
                 </div>
             </div>
             <hr/>
         </div>
-
-    )
+    );
 }
