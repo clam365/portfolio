@@ -17,7 +17,7 @@ const Sidebar = () => {
                         <Link href={"/photography"}>
                             <h1 className="font-semibold text-lg mb-4 hover:text-gray-400 transition mr-5">Photos</h1>
                         </Link>
-                        <a href={"/resume.pdf"} target={"_blank"} rel={"opener referrer"}>Resume</a>
+                        <a href={"/resume.pdf"} target={"_blank"} rel={"opener referrer"} className="font-semibold text-lg mb-4 hover:text-gray-400 transition mr-5">Resume</a>
 
                     </div>
             </div>
@@ -37,13 +37,12 @@ const Sidebar = () => {
                         <Link href={"/photography"}>
                             <h1 className="font-semibold text-xl mb-4 hover:text-gray-400 transition transform hover:translate-x-1">Photography</h1>
                         </Link>
-                        <Link href={"/cv"}>
-                            <h1 className="font-semibold text-xl mb-6 hover:text-gray-400 transition transform hover:translate-x-1">Resume</h1>
-                        </Link>
+                        <a href={"/resume.pdf"} target={"_blank"} rel={"opener referrer"} className="font-semibold text-xl mb-6 hover:text-gray-400 transition transform hover:translate-x-1">Resume</a>
+
                     </div>
-                    <hr className={"mb-6"}/>
+                    <hr className={"mt-6 mb-6"}/>
                     <div>
-                        <h1 className="text-gray-400 text-sm mb-3 font-semibold tracking-widest">PROJECTS</h1>
+                    <h1 className="text-gray-400 text-sm mb-3 font-semibold tracking-widest">PROJECTS</h1>
                         <Link href={"/iqpDCT"}><p
                             className="text-sm mb-2 transition  transform hover:translate-x-1 hover:text-gray-400">IQP
                             DCT</p>
