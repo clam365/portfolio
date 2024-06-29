@@ -6,8 +6,8 @@ export default function Education() {
             <h1 className="font-semibold text-violet-600 text-sm mb-4 mt-4 tracking-widest">EDUCATION</h1>
             <div className={" flex justify-between m-auto items-center"}>
                 <div className={""}>
-                    <h1 className={"font-semibold text-2xl text-[#121212]"}>Worcester Polytechnic Institute</h1>
-                    <h1 className={"font-semibold text-2xl text-gray-400"}>Computer Science</h1>
+                    <h1 className={"font-semibold text-3xl"}>Worcester Polytechnic Institute</h1>
+                    <h1 className={"font-semibold text-3xl text-gray-400"}>Computer Science</h1>
                     <p className={"text-sm mt-4"}>B.S/M.S. in Computer Science (In Progress)</p>
                 </div>
 
