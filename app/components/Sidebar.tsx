@@ -17,9 +17,8 @@ const Sidebar = () => {
                         <Link href={"/photography"}>
                             <h1 className="font-semibold text-lg mb-4 hover:text-gray-400 transition mr-5">Photos</h1>
                         </Link>
-                        <Link href={"/cv"}>
-                            <h1 className="font-semibold text-lg mb-6 hover:text-gray-400 transition">Resume</h1>
-                        </Link>
+                        <a href={"/resume.pdf"} target={"_blank"} rel={"opener referrer"}>Resume</a>
+
                     </div>
             </div>
 

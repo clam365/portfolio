@@ -17,7 +17,7 @@ export default function InfoSection() {
 
                 {/* Text Section */}
                 <div className="flex-1">
-                    <h1 className="font-semibold text-green-600 text-sm mb-4 tracking-widest">INFO</h1>
+                    <h1 className="font-semibold text-violet-600 text-sm mb-4 tracking-widest">INFO</h1>
                     <p className="text-sm">
                         I am a software engineer in Greater Boston, Massachusetts, specializing in frontend and
                         UI/UX development.
