@@ -3,13 +3,13 @@ import Link from "next/link";
 export default function MyPhilosophy() {
     return (
         <div className=" mx-auto">
-            <h1 className="font-semibold text-violet-600 text-sm mb-4 mt-4 tracking-widest">MY PHILOSOPHY</h1>
+            <h1 className="font-semibold text-[#D5B895] text-sm mb-4 mt-4 tracking-widest">MY PHILOSOPHY</h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 ">
                 <div className="mb-6 sm:mb-0 lg:pr-4">
                     <h1 className="font-bold text-sm mb-2">Work Ethic</h1>
                     <p className="text-sm">
                         Great taste, as defined by{" "}
-                        <Link href={"https://www.goodreads.com/quotes/309485-nobody-tells-this-to-people-who-are-beginners-i-wish"} className="text-violet-600">
+                        <Link href={"https://www.goodreads.com/quotes/309485-nobody-tells-this-to-people-who-are-beginners-i-wish"} className="text-[#D5B895]">
                             Ira Glass
                         </Link>, is understanding that though many start their journeys in creative work, the drive to perfect, master, and love your craft is essential.
                         {/* eslint-disable-next-line react/no-unescaped-entities */}

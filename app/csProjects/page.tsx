@@ -1,9 +1,9 @@
-"use client";
-import styles from './page.module.css'
+'use client';
+import styles from './page.module.css';
 import { useState } from 'react';
-import Project from './Project';
-import Modal from './Modal';
-import Link from "next/link";
+import Project from './Project/Index';
+import Modal from './Modal/Index';
+import Link from 'next/link';
 
 const projects = [
     {
@@ -24,26 +24,27 @@ const projects = [
         color: "#22c55e",
         linkTo: "/spotify-clone"
     },
-]
+];
 
 export default function Page() {
-
-    const [modal, setModal] = useState({active: false, index: 0})
+    const [modal, setModal] = useState({ active: false, index: 0 });
 
     return (
         <main className={styles.main}>
             <div className={styles.body}>
-                {
-                    projects.map( (project, index) => {
-                        return (
-                                <Link href={project.linkTo} key={index}>
-                                    <Project index={index} title={project.title} link={project.linkTo} setModal={setModal} key={index}/>
-                                </Link>
-                            );
-                    })
-                }
+                {projects.map((project, index) => (
+                    <Link href={project.linkTo} key={index}>
+                        <Project
+                            index={index}
+                            title={project.title}
+                            smolImage={project.src}
+                            link={project.linkTo}
+                            setModal={setModal}
+                        />
+                    </Link>
+                ))}
             </div>
-            <Modal modal={modal} projects={projects}/>
+            <Modal modal={modal} projects={projects} />
         </main>
-    )
+    );
 }

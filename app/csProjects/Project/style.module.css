@@ -39,7 +39,7 @@
 
 @media (max-width: 1024px) {
     .project h2 {
-        font-size: 2.5rem; /* Adjust the font size as needed */
+        font-size: 2rem; /* Adjust the font size as needed */
     }
 
     .project p {
