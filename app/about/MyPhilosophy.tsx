@@ -22,7 +22,7 @@ export default function MyPhilosophy() {
                     <p className="text-sm">
                         As technology advances and AI develops, the value of authentic expression grows. Creativity, rooted in human imagination and emotion, remains AI-proof.
                         {/* eslint-disable-next-line react/no-unescaped-entities */}
-                        I aim to bring creative applications to those who harness technology while preserving human expression's essence, empowering individuals and communities to innovate, connect, and inspire through limitless creativity.
+                        &nbsp;I aim to bring creative applications to those who harness technology while preserving human expression's essence, empowering individuals and communities to innovate, connect, and inspire through limitless creativity.
                     </p>
                 </div>
             </div>

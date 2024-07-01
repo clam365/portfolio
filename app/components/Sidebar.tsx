@@ -4,7 +4,7 @@ const Sidebar = () => {
     return (
         <div>
             {/* Mobile View */}
-            <div className="lg:hidden p-10 flex justify-between m-auto items-center">
+            <div className="lg:hidden p-10 pt-6 flex justify-between m-auto items-center ">
                     <div>
                         <Link href="/">
                             <Image src="/choso2.png" alt="logo" width={87} height={48} className="rounded-lg mb-6"/>
@@ -25,7 +25,7 @@ const Sidebar = () => {
 
 
             {/* Sidebar on Desktop/Laptop */}
-            <aside className="w-64 h-full p-12 border-r border-neutral-200 lg:block hidden fixed">
+            <aside className="w-64 h-full p-12 border-r border-neutral-200 lg:block hidden fixed ">
                 <nav>
                     <div>
                         <Link href={"/"}><Image src={"/choso2.png"} alt={"logo"} width={87} height={48}
