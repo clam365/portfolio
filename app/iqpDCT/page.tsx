@@ -25,7 +25,7 @@ export default function page() {
             >
                 <div className={" flex flex-col justify-center m-auto"}>
                     <Image src={"/dctMockup.png"} alt={"DCT"} width={1280} height={720}
-                           className={""}/>
+                           className={" m-auto drop-shadow-2xl"}/>
                     <div className={"xl:p-44 lg:p-20   xl:pt-16 lg:pt-16"}>
                         <BasicInfo/>
                         <hr className={"mt-10"}/>
