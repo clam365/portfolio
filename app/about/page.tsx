@@ -16,15 +16,19 @@ export default function Page() {
         <div className="lg:flex">
             <Sidebar />
             <motion.div
-                className="flex-1 p-10 lg:p-60 lg:pt-10 lg:ml-64"
+                className="flex-1 lg:pt-0 lg:ml-64 flex flex-col overflow-x-hidden"
                 initial="hidden"
                 animate="visible"
                 variants={fadeUpVariants}
             >
-                <Header />
-                <InfoSection />
-                <Education />
-                <MyPhilosophy />
+                <div className="flex flex-col justify-center m-auto">
+                    <div className="p-12 md:p-20 lg:p-20 xl:p-44 lg:pt-10 xl:pt-16">
+                        <Header />
+                        <InfoSection />
+                        <Education />
+                        <MyPhilosophy />
+                    </div>
+                </div>
             </motion.div>
         </div>
     );
