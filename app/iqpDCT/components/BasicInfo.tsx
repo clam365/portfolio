@@ -1,7 +1,7 @@
 export default function BasicInfo() {
     return (
         <div>
-            <h1 className={"font-semibold xl:text-6xl lg:text-6xl md:text-5xl text-[#121212]"}>IQP Data Collection
+            <h1 className={"font-semibold text-3xl xl:text-6xl lg:text-6xl md:text-5xl text-[#121212]"}>IQP Data Collection
                 Tool</h1>
             <p className={"text-gray-400 font-semibold text-xl mt-5"}>Bridging all forms of data collection into one
                 place</p>
