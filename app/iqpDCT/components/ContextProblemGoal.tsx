@@ -20,7 +20,7 @@ export default function ContextProblemGoal() {
                 <h1 className={"text-[#E3E3E3] font-bold text-lg mt-1"}>Develop an application to log unique forms of data all in one place with effectiveness in organization, intake, and exportation of data.</h1>
 
                 <h1 className={"text-[#949494] text-sm mt-4"}>Succes Metrics</h1>
-                <div className="grid grid-cols-2 gap-4 mt-2">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-2">
                     <div className="bg-[#6B6B6B] p-4 rounded-md">
                         <div className="flex items-center">
                             <h1 className="bg-[#323232] text-[#E3E3E3] w-6 h-6 p-1 text-sm rounded-sm flex items-center justify-center scale-90 font-bold">1</h1>
