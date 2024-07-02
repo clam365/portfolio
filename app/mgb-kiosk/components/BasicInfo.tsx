@@ -28,6 +28,10 @@ export default function BasicInfo() {
                 <br/>
                 The application at the end of the term was presented to representatives of Mass General Brigham for
                 further feedback and usage.
+                <br/>
+                <br/>
+                <span className={"font-semibold"}>Technology Stack: </span> React, Node.js, Express, Prisma, Axios, Docker, AWS, Figma, Git, Tailwind, Trello, Tailwind
+
             </p>
         </div>
     )
