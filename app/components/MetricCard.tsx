@@ -1,4 +1,10 @@
-export default function MetricCard({ number, title, description }) {
+interface MetricCardProps {
+    number: string | number;
+    title: string;
+    description: string;
+}
+
+const MetricCard: React.FC<MetricCardProps> = ({ number, title, description }) => {
     return (
         <div className="bg-[#6B6B6B] p-4 rounded-md">
             <div className="flex items-center">
@@ -9,3 +15,5 @@ export default function MetricCard({ number, title, description }) {
         </div>
     );
 }
+
+export default MetricCard;
