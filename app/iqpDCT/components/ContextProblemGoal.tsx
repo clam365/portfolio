@@ -1,4 +1,3 @@
-import Goals from "@/app/iqpDCT/components/Goals";
 
 export default function ContextProblemGoal() {
     return (
@@ -13,10 +12,9 @@ export default function ContextProblemGoal() {
             <h1 className="font-semibold text-gray-400 text-sm mt-8 tracking-widest">PROBLEM</h1>
             <p className={"text-sm mt-3"}>
                 Teams must collect vast amounts of different types of data ranging from qualitative, quantitative, surveys, and interviews.
-                With multiple platforms and applications tracking this data, it becomes easy to be disorganized and inefficient to put together a comprehensive
+                With multiple platforms and applications tracking this data, it becomes easy to be disorganized and inefficient and put together a comprehensive
                 solution without overcoming this barrier.
             </p>
-            <Goals/>
         </div>
     )
 }

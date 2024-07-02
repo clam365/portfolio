@@ -9,7 +9,7 @@ export default function Goals() {
     ];
 
     return (
-        <div className="mt-16 rounded-lg bg-[#323232] p-4">
+        <div className="mt-16 mb-6 rounded-lg bg-[#323232] p-4">
             <h1 className="text-[#949494] text-sm">Goal</h1>
             <h1 className="text-[#E3E3E3] font-bold text-lg mt-1">Develop an application to log unique forms of data all in one place with effectiveness in organization, intake, and exportation of data.</h1>
 

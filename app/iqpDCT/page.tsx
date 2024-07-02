@@ -8,6 +8,7 @@ import BasicInfo from "@/app/iqpDCT/components/BasicInfo";
 import ContextProblemGoal from "@/app/iqpDCT/components/ContextProblemGoal";
 import GoToMGB from "@/app/iqpDCT/components/GoToMGB";
 import Research from "@/app/iqpDCT/components/Research";
+import Goals from "@/app/iqpDCT/components/Goals";
 
 const fadeUpVariants = {
     hidden: { opacity: 0, y: 20 },
@@ -34,6 +35,7 @@ export default function page() {
                         <hr className={"mt-12 mb-6"}/>
                         <ContextProblemGoal/>
                         <Research/>
+                        <Goals/>
                         <UnderConstruction/>
                         <GoToMGB/>
                     </div>
