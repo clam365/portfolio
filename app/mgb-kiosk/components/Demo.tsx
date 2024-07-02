@@ -67,12 +67,14 @@ export default function Demo() {
                         Sure, the type of request tab area makes it accessible, but there's too much whitespace and the button/selection themes don't seem to match.
                     </p>
                 </div>
-                <div className="bg-[#f2f2f2] rounded-lg p-10 flex flex-col justify-center m-auto ">
-                    <Image
-                        src="/oldRequestDesign.png"
-                        alt={"old"}
-                        className="rounded-lg w-fit h-full drop-shadow-xl"
-                        width={750} height={500}/>
+                <div className="bg-[#f2f2f2] rounded-lg p-10 flex justify-center m-auto ">
+
+
+                    <Image alt={"old"}
+                           src="/oldRequestDesign.png"
+                           className="rounded-lg w-fit h-full drop-shadow-xl"
+                           width={750} height={500}/>
+
                 </div>
             </div>
 
