@@ -6,7 +6,7 @@ import Footer from "@/app/components/Footer";
 export default function LandingContent() {
     return (
 
-        <div className={"p-10 sm:pt-0 xl:pt-10 md:pt-0 lg:pt-10"}>
+        <div className={"p-10 pt-0 xl:pt-10 lg:pt-10"}>
             {/* Introduction */}
             <div className={"text-transparent bg-clip-text bg-gradient-to-r from-gray-400 to-[#121212]"}>
                 <h1 className="font-semibold text-lg md:text-xl lg:text-2xl mb-5">

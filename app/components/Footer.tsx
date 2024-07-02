@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
     return (
-        <footer className={"p-6 pl-0 pr-0 pb-0 flex justify-between"}>
+        <footer className={"p-6 pl-0 pr-0 pb-0 flex justify-between text-sm"}>
             <h1>Chris Lam. Inspired by Ethan Chng</h1>
             <div className={"flex"}>
                 <a href="mailto:christpherlam365@gmail.com">
@@ -14,7 +14,7 @@ export default function Footer() {
                 <Link href={"https://github.com/clam365"}>
                     <p className="mr-2 lg:hidden">Github</p>
                 </Link>
-                <h1>© 2024</h1>
+                <h1 className={"hidden md:block"}>© 2024</h1>
             </div>
 
         </footer>

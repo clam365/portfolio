@@ -2,7 +2,7 @@ import {AppWindow, List} from "lucide-react";
 
 export default function Research() {
     return (
-        <div className={"mb-6 mt-12"}>
+        <div className={"mb-6 mt-16"}>
             <h1 className="font-semibold text-gray-400 text-sm mt-3 tracking-widest">UXR</h1>
             <h1 className={"text-[#121212] text-xl font-semibold mb-4 "}>Three main research pillars for our approach</h1>
             <hr/>
