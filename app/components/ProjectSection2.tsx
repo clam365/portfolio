@@ -13,11 +13,11 @@ export default function ProjectSection2() {
             gsap.fromTo(
                 image,
                 { scale: 1, transformOrigin: "top left" },
-                { scale: 1.1, transformOrigin: "top left", duration: 0.3, paused: true }
+                { scale: 1.05, transformOrigin: "top left", duration: 0.3, paused: true }
             );
 
             const onMouseEnter = () => {
-                gsap.to(image, { scale: 1.1, transformOrigin: "top left", duration: 0.3 });
+                gsap.to(image, { scale: 1.05, transformOrigin: "top left", duration: 0.3 });
             };
 
             const onMouseLeave = () => {
@@ -40,34 +40,34 @@ export default function ProjectSection2() {
                 CRAFT
             </h1>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-6 relative justify-between">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mt-6">
                 <Link href={"iqpDCT"}>
                     <div>
                         <h1 className={" text-2xl mb-3 tracking-wide font-light"}>IQP Data Tool</h1>
-                        <div className="drop-shadow-xl relative" ref={(el) => {
+                        <div className="drop-shadow-xl max-w-full mx-auto" ref={(el) => {
                             if (el) imageRefs.current[0] = el;
                         }}>
-                            <Image src="/dctCard.png" alt="DCT" width={500} height={650}/>
+                            <Image src="/dctCard.png" alt="DCT" width={450} height={600} className="drop-shadow-xl" />
                         </div>
                     </div>
                 </Link>
                 <Link href={"mgb-kiosk"}>
                     <div>
                         <h1 className={" text-2xl mb-3 tracking-wide font-light"}>MGB Kiosk</h1>
-                        <div className="drop-shadow-xl relative" ref={(el) => {
+                        <div className="drop-shadow-xl max-w-full mx-auto" ref={(el) => {
                             if (el) imageRefs.current[1] = el;
                         }}>
-                            <Image src="/mgbCard.png" alt="DCT" width={500} height={650}/>
+                            <Image src="/mgbCard.png" alt="MGB Kiosk" width={450} height={600} />
                         </div>
                     </div>
                 </Link>
                 <Link href={"spotify-clone"}>
-                    <div>
+                    <div >
                         <h1 className={" text-2xl mb-3 tracking-wide font-light"}>Spotify Clone</h1>
-                        <div className="drop-shadow-xl relative" ref={(el) => {
+                        <div className="drop-shadow-xl max-w-full mx-auto " ref={(el) => {
                             if (el) imageRefs.current[2] = el;
                         }}>
-                            <Image src="/spotifyCard.png" alt="DCT" width={500} height={650}/>
+                            <Image src="/spotifyCard.png" alt="Spotify Clone" width={450} height={600} />
                         </div>
                     </div>
                 </Link>

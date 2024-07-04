@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Footer() {
     return (
         <footer className={"p-6 pl-0 pr-0 pb-0 flex justify-between text-sm"}>
-            <h1>Chris Lam. Inspired by Ethan Chng</h1>
+            <h1>Chris Lam</h1>
             <div className={"flex"}>
                 <a href="mailto:christpherlam365@gmail.com">
                     <p className="mr-2 lg:hidden">Email</p>
