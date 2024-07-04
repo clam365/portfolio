@@ -40,7 +40,7 @@ export default function ProjectSection2() {
                 CRAFT
             </h1>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mt-6">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6 justify-between">
                 <Link href={"iqpDCT"}>
                     <div>
                         <h1 className={" text-2xl mb-3 tracking-wide font-light"}>IQP Data Tool</h1>
