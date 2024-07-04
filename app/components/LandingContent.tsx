@@ -1,5 +1,5 @@
-import ProjectSection from "@/app/components/ProjectSection";
 import Footer from "@/app/components/Footer";
+import ProjectSection2 from "@/app/components/ProjectSection2";
 
 
 export default function LandingContent() {
@@ -19,7 +19,7 @@ export default function LandingContent() {
             </div>
             <hr className={"mt-10"}/>
 
-            <ProjectSection/>
+            <ProjectSection2/>
             <Footer/>
         </div>
     );
