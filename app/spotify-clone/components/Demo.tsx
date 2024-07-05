@@ -31,7 +31,7 @@ export default function Demo() {
                 </div>
                 <div className="bg-[#f2f2f2] rounded-lg p-4 md:p-10 flex flex-col justify-center m-auto ">
 
-                    <div className={"hidden lg:flex"}>
+                    <div className={""}>
                         <video
                             src="/spotify/search.mp4"
                             className="hidden lg:block rounded-lg w-fit h-full drop-shadow-xl"
@@ -41,10 +41,6 @@ export default function Demo() {
                             muted
                             width={1000} height={800}
                         />
-                    </div>
-                    <div className={"flex lg:hidden"}>
-                        <Image src={"/spotify/searchFrame.jpg"} alt={"/mapdemo"} width={1000} height={800}
-                               className="rounded-lg w-fit h-full drop-shadow-xl"/>
                     </div>
                 </div>
             </div>
@@ -57,7 +53,7 @@ export default function Demo() {
                     </p>
                 </div>
                 <div className="bg-[#f2f2f2] rounded-lg p-4 md:p-10 flex justify-center m-auto ">
-                    <div className={"hidden lg:flex"}>
+                    <div className={""}>
                         <video
                             src="/spotify/uploadSong.mp4"
                             className="hidden lg:block rounded-lg w-fit h-full drop-shadow-xl"
@@ -67,10 +63,6 @@ export default function Demo() {
                             muted
                             width={1250} height={800}
                         />
-                    </div>
-                    <div className={"flex lg:hidden justify-center m-auto"}>
-                        <Image src={"/spotify/uploadFrame.jpg"} alt={"/mapdemo"} width={1000} height={800}
-                               className="rounded-lg w-fit h-full drop-shadow-xl"/>
                     </div>
                 </div>
             </div>
@@ -83,8 +75,6 @@ export default function Demo() {
                     </p>
                 </div>
                 <div className="bg-[#f2f2f2] rounded-lg p-4 md:p-10 flex flex-col justify-center m-auto ">
-
-                    <div className={"hidden lg:flex"}>
                         <video
                             src="/spotify/premium.mp4"
                             className="hidden lg:block rounded-lg w-fit h-full drop-shadow-xl"
@@ -94,11 +84,6 @@ export default function Demo() {
                             muted
                             width={1000} height={800}
                         />
-                    </div>
-                    <div className={"flex lg:hidden"}>
-                        <Image src={"/spotify/premiumFrame.jpg"} alt={"/mapdemo"} width={1000} height={800}
-                               className="rounded-lg w-fit h-full drop-shadow-xl"/>
-                    </div>
                 </div>
             </div>
 

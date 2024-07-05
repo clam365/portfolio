@@ -49,7 +49,7 @@ export default function Demo() {
                 </div>
                 <div className="bg-[#f2f2f2] rounded-lg p-4 md:p-10 flex flex-col justify-center m-auto ">
 
-                    <div className={"hidden lg:flex"}>
+                    <div className={""}>
                         <video
                             src="/mapDemo.mp4"
                             className="hidden lg:block rounded-lg w-fit h-full drop-shadow-xl"
@@ -60,10 +60,6 @@ export default function Demo() {
                             width={1000} height={800}
                         />
                     </div>
-                    <div className={"flex lg:hidden"}>
-                        <Image src={"/mapDemoImage.jpg"} alt={"/mapdemo"} width={1000} height={800} className="rounded-lg w-fit h-full drop-shadow-xl"/>
-                    </div>
-
                 </div>
             </div>
 
@@ -101,7 +97,7 @@ export default function Demo() {
                 </div>
                 <div className="bg-[#f2f2f2] rounded-lg p-4 md:p-10 flex flex-col justify-center m-auto ">
 
-                    <div className={"hidden lg:flex"}>
+                    <div className={""}>
                         <video
                             src="/requestDemo.mp4"
                             className="hidden lg:block rounded-lg w-fit h-full drop-shadow-xl"
@@ -112,10 +108,7 @@ export default function Demo() {
                             width={1000} height={800}
                         />
                     </div>
-                    <div className={"flex lg:hidden"}>
-                        <Image src={"/requestDemoImage.jpg"} alt={"/mapdemo"} width={1000} height={800}
-                               className="rounded-lg w-fit h-full drop-shadow-xl"/>
-                    </div>
+
                 </div>
             </div>
 
