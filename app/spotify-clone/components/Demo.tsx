@@ -56,7 +56,7 @@ export default function Demo() {
                     <div className={""}>
                         <video
                             src="/spotify/uploadSong.mp4"
-                            className=" rounded-lg w-fit h-full drop-shadow-xl"
+                            className=" rounded-lg w-fit h-full drop-shadow-xl flex justify-center m-auto"
                             autoPlay
                             playsInline
                             loop
@@ -77,7 +77,7 @@ export default function Demo() {
                 <div className="bg-[#f2f2f2] rounded-lg p-4 md:p-10 flex flex-col justify-center m-auto ">
                         <video
                             src="/spotify/premium.mp4"
-                            className="rounded-lg w-fit h-full drop-shadow-xl"
+                            className="rounded-lg w-fit h-fit drop-shadow-xl"
                             autoPlay
                             playsInline
                             loop
