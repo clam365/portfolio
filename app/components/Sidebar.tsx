@@ -14,15 +14,15 @@ const Sidebar = () => {
                                    className="rounded-lg mb-4 items-center"/>
                         </Link>
                     </div>
-                    <div className="flex items-center justify-end">
+                    <div className="flex items-center justify-end gap-3">
                         <Link href="/about">
-                            <h1 className="font-semibold text-md mb-4 hover:text-gray-400 transition mr-5">About</h1>
+                            <h1 className="font-semibold text-md mb-4 hover:text-gray-400 transition">About</h1>
                         </Link>
                         <Link href="/photography">
-                            <h1 className="font-semibold text-md mb-4 hover:text-gray-400 transition mr-5">Photos</h1>
+                            <h1 className="font-semibold text-md mb-4 hover:text-gray-400 transition">Photos</h1>
                         </Link>
                         <a href="/resume.pdf" target="_blank" rel="opener referrer"
-                           className="font-semibold text-md mb-4 hover:text-gray-400 transition mr-5">Resume</a>
+                           className="font-semibold text-md mb-4 hover:text-gray-400 transition ">Resume</a>
                     </div>
                 </div>
             </div>

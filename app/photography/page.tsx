@@ -18,8 +18,8 @@ export default function Page() {
                 animate="visible"
                 variants={fadeUpVariants}
             >
-                <div className={"mt-28 lg:mt:0"}>
-                    <h1 className="font-bold text-4xl text-neutral-700 text-center">PHOTOGRAPHY</h1>
+                <div className={"mt-28 lg:mt-0"}>
+                    <h1 className="font-bold text-4xl text-neutral-700 text-center lg:text-left">PHOTOGRAPHY</h1>
                     <p className="mt-6 mb-16 text-gray-400 text-center lg:text-left">
                         I like to take photos everywhere I travel to embody the beauty of the world. I am traveling next
                         to Kyoto, Japan soon to study abroad!

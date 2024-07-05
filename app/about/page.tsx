@@ -21,7 +21,7 @@ export default function Page() {
                 animate="visible"
                 variants={fadeUpVariants}
             >
-                <div className={" flex flex-col justify-center m-auto mt-28 lg:mt:0"}>
+                <div className={" flex flex-col justify-center m-auto mt-28 lg:mt-0"}>
                     <div className="p-12 md:p-20 lg:p-20 xl:p-44 lg:pt-10 xl:pt-16">
                         <Header/>
                         <InfoSection/>

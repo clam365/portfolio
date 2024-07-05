@@ -19,7 +19,7 @@ export default function Home() {
                 animate="visible"
                 variants={fadeUpVariants}
             >
-                <div className={" flex flex-col justify-center m-auto mt-28 lg:mt:0"}>
+                <div className={" flex flex-col justify-center m-auto mt-28 lg:mt-0"}>
                     <div className={"p-10  lg:p-12 "}>
                         {/* Introduction */}
                         <div className={"text-transparent bg-clip-text bg-gradient-to-r from-gray-400 to-[#121212]"}>
@@ -27,10 +27,8 @@ export default function Home() {
                                 Hello there!
                             </h1>
                             <p className="font-semibold text-2xl md:text-3xl  xl:text-4xl">
-                                Chris is a full stack software engineer with a focus in frontend and UI/UX work,
-                                crafting meaningful
-                                user interfaces that feel natural and free-flowing. He currently
-                                is an intern with the Air Force.
+                                My name is Chris Lam, and I am a full stack software engineer who specializes on frontend and UI/UX work, crafting meaningful
+                                user interfaces that feel natural and free-flowing. I am currently a data analyst intern with the Air Force.
                             </p>
                         </div>
                         <hr className={"mt-10"}/>
