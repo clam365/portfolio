@@ -31,14 +31,20 @@ export default function Demo() {
                 </div>
                 <div className="bg-[#f2f2f2] rounded-lg p-4 md:p-10 flex flex-col justify-center m-auto ">
 
-                    <video
-                        src="/spotify/search.mp4"
-                        className="rounded-lg w-fit h-full drop-shadow-xl"
-                        autoPlay
-                        loop
-                        muted
-                        width={1000} height={800}
-                    />
+                    <div className={"hidden lg:flex"}>
+                        <video
+                            src="/spotify/search.mp4"
+                            className="rounded-lg w-fit h-full drop-shadow-xl"
+                            autoPlay
+                            loop
+                            muted
+                            width={1000} height={800}
+                        />
+                    </div>
+                    <div className={"flex lg:hidden"}>
+                        <Image src={"/spotify/searchFrame.jpg"} alt={"/mapdemo"} width={1000} height={800}
+                               className="rounded-lg w-fit h-full drop-shadow-xl"/>
+                    </div>
                 </div>
             </div>
 
@@ -50,15 +56,20 @@ export default function Demo() {
                     </p>
                 </div>
                 <div className="bg-[#f2f2f2] rounded-lg p-4 md:p-10 flex justify-center m-auto ">
-                    <video
-                        src="/spotify/uploadSong.mp4"
-                        className="rounded-lg w-fit h-full drop-shadow-xl"
-                        autoPlay
-                        loop
-                        muted
-                        width={1000} height={800}
-                    />
-
+                    <div className={"hidden lg:flex"}>
+                        <video
+                            src="/spotify/uploadSong.mp4"
+                            className="rounded-lg w-fit h-full drop-shadow-xl"
+                            autoPlay
+                            loop
+                            muted
+                            width={1000} height={800}
+                        />
+                    </div>
+                    <div className={"flex lg:hidden"}>
+                        <Image src={"/spotify/uploadFrame.jpg"} alt={"/mapdemo"} width={1000} height={800}
+                               className="rounded-lg w-fit h-full drop-shadow-xl"/>
+                    </div>
                 </div>
             </div>
 
@@ -66,19 +77,25 @@ export default function Demo() {
                 <div className="mb-3">
                     <p className="text-sm text-[#949494] mb-1">Subscribe to Spotify Premium</p>
                     <p className={"text-sm"}>
-                        Get Spotify Premium through Stripe API, where you can open up more features.
+                    Get Spotify Premium through Stripe API, where you can open up more features.
                     </p>
                 </div>
                 <div className="bg-[#f2f2f2] rounded-lg p-4 md:p-10 flex flex-col justify-center m-auto ">
 
-                    <video
-                        src="/spotify/premium.mp4"
-                        className="rounded-lg w-fit h-full drop-shadow-xl"
-                        autoPlay
-                        loop
-                        muted
-                        width={1000} height={800}
-                    />
+                    <div className={"hidden lg:flex"}>
+                        <video
+                            src="/spotify/premium.mp4"
+                            className="rounded-lg w-fit h-full drop-shadow-xl"
+                            autoPlay
+                            loop
+                            muted
+                            width={1000} height={800}
+                        />
+                    </div>
+                    <div className={"flex lg:hidden"}>
+                        <Image src={"/spotify/premiumFrame.jpg"} alt={"/mapdemo"} width={1000} height={800}
+                               className="rounded-lg w-fit h-full drop-shadow-xl"/>
+                    </div>
                 </div>
             </div>
 
