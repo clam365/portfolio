@@ -52,7 +52,7 @@ export default function Demo() {
                     <div className={"hidden lg:flex"}>
                         <video
                             src="/mapDemo.mp4"
-                            className="rounded-lg w-fit h-full drop-shadow-xl"
+                            className="hidden lg:block rounded-lg w-fit h-full drop-shadow-xl"
                             autoPlay
                             loop
                             muted
@@ -103,7 +103,7 @@ export default function Demo() {
                     <div className={"hidden lg:flex"}>
                         <video
                             src="/requestDemo.mp4"
-                            className="rounded-lg w-fit h-full drop-shadow-xl"
+                            className="hidden lg:block rounded-lg w-fit h-full drop-shadow-xl"
                             autoPlay
                             loop
                             muted

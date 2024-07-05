@@ -36,28 +36,28 @@ const Sidebar = () => {
                                                 className={"rounded-lg mb-6"}/></Link>
 
                         <Link href={"/about"}>
-                            <h1 className="font-semibold text-xl mb-4 hover:text-gray-400 transition transform hover:translate-x-1">About</h1>
+                            <h1 className="font-semibold text-xl mb-4 hover:text-gray-400 transition">About</h1>
                         </Link>
                         <Link href={"/photography"}>
-                            <h1 className="font-semibold text-xl mb-4 hover:text-gray-400 transition transform hover:translate-x-1">Photography</h1>
+                            <h1 className="font-semibold text-xl mb-4 hover:text-gray-400 transition ">Photography</h1>
                         </Link>
                         <a href={"/resume.pdf"} target={"_blank"} rel={"opener referrer"}
-                           className="font-semibold text-xl mb-6 hover:text-gray-400 transition transform hover:translate-x-1">Resume</a>
+                           className="font-semibold text-xl mb-6 hover:text-gray-400 transition ">Resume</a>
 
                     </div>
                     <hr className={"mt-6 mb-6"}/>
                     <div>
                     <h1 className="text-gray-400 text-sm mb-3 font-semibold tracking-widest">PROJECTS</h1>
                         <Link href={"/iqpDCT"}><p
-                            className="text-sm mb-2 transition  transform hover:translate-x-1 hover:text-gray-400">IQP
+                            className="text-sm mb-2 transition  hover:text-gray-400">IQP
                             DCT</p>
                         </Link>
                         <Link href={"/mgb-kiosk"}><p
-                            className="text-sm mb-2 transition  transform hover:translate-x-1 hover:text-gray-400">MGB
+                            className="text-sm mb-2 transition hover:text-gray-400">MGB
                             Kiosk</p>
                         </Link>
                         <Link href={"/spotify-clone"}><p
-                            className="text-sm mb-6 transition  transform hover:translate-x-1 hover:text-gray-400">Spotify
+                            className="text-sm mb-6 transition hover:text-gray-400">Spotify
                             Clone</p></Link>
                     </div>
                     <hr className={"mb-6"}/>
@@ -65,10 +65,10 @@ const Sidebar = () => {
                         <h1 className="text-gray-400 text-sm mb-2 font-semibold tracking-widest">CONTACT</h1>
                         <a href="mailto:christpherlam365@gmail.com"><p className="text-sm mb-2 transition  transform hover:translate-x-1 hover:text-gray-400">Email</p></a>
                         <Link href={"https://www.linkedin.com/in/chrislam365"}><p
-                            className="text-sm mb-2 transition  transform hover:translate-x-1 hover:text-gray-400">LinkedIn</p>
+                            className="text-sm mb-2 transition   hover:text-gray-400">LinkedIn</p>
                         </Link>
                         <Link href={"https://github.com/clam365"}>
-                            <p className="text-sm mb-2 transition  transform hover:translate-x-1 hover:text-gray-400">
+                            <p className="text-sm mb-2 transition hover:text-gray-400">
                                 Github
                             </p>
                         </Link>

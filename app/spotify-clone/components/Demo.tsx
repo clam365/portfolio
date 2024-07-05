@@ -34,7 +34,7 @@ export default function Demo() {
                     <div className={"hidden lg:flex"}>
                         <video
                             src="/spotify/search.mp4"
-                            className="rounded-lg w-fit h-full drop-shadow-xl"
+                            className="hidden lg:block rounded-lg w-fit h-full drop-shadow-xl"
                             autoPlay
                             loop
                             muted
@@ -59,7 +59,7 @@ export default function Demo() {
                     <div className={"hidden lg:flex"}>
                         <video
                             src="/spotify/uploadSong.mp4"
-                            className="rounded-lg w-fit h-full drop-shadow-xl"
+                            className="hidden lg:block rounded-lg w-fit h-full drop-shadow-xl"
                             autoPlay
                             loop
                             muted
@@ -85,7 +85,7 @@ export default function Demo() {
                     <div className={"hidden lg:flex"}>
                         <video
                             src="/spotify/premium.mp4"
-                            className="rounded-lg w-fit h-full drop-shadow-xl"
+                            className="hidden lg:block rounded-lg w-fit h-full drop-shadow-xl"
                             autoPlay
                             loop
                             muted
