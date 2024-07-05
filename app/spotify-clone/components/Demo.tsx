@@ -63,10 +63,10 @@ export default function Demo() {
                             autoPlay
                             loop
                             muted
-                            width={1000} height={800}
+                            width={1250} height={800}
                         />
                     </div>
-                    <div className={"flex lg:hidden"}>
+                    <div className={"flex lg:hidden justify-center m-auto"}>
                         <Image src={"/spotify/uploadFrame.jpg"} alt={"/mapdemo"} width={1000} height={800}
                                className="rounded-lg w-fit h-full drop-shadow-xl"/>
                     </div>
