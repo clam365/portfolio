@@ -4,7 +4,7 @@ import Sidebar from "@/app/components/Sidebar";
 import Image from "next/image";
 import RoleDurationTeam from "@/app/spotify-clone/components/RoleDurationTeam";
 import BasicInfo from "@/app/spotify-clone/components/BasicInfo";
-import ContextProblemGoal from "@/app/spotify-clone/components/ContextProblemGoal";
+import Features from "@/app/spotify-clone/components/Features";
 import GoToSpotify from "@/app/spotify-clone/components/GoToSpotify";
 import Demo from "@/app/spotify-clone/components/Demo";
 import OutcomesTakeaways from "@/app/spotify-clone/components/OutcomesTakeaways";
@@ -32,8 +32,8 @@ export default function page() {
                         <hr className={"mt-10"}/>
                         <RoleDurationTeam/>
                         <hr className={"mt-12 mb-6"}/>
-                        <ContextProblemGoal/>
-                        <hr className="mb-6"/>
+                        <Features/>
+
                         <Demo/>
                         <hr className="mt-10 "/>
                         <OutcomesTakeaways/>

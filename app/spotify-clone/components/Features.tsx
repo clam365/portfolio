@@ -1,6 +1,6 @@
 import FeatureCard from "@/app/components/FeatureCard";
 
-export default function ContextProblemGoal() {
+export default function Features() {
     const features = [
         { number: 1, title: 'Sleek User Interface', description: 'Responsive UI that closely resembles Spotify.' },
         { number: 2, title: 'Song Functionalities', description: 'Upload music, like, play, and manage songs and its playlists.' },

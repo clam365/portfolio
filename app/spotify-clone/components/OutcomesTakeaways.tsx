@@ -2,16 +2,16 @@ import MetricCard from "@/app/components/MetricCard";
 
 export default function OutcomesTakeaways() {
     const metrics = [
-        { number: 1, title: 'Full Stack Capability', description: 'I learned how to to backend for the first time and also fetch data onto our frontend.' },
-        { number: 2, title: 'Implement UI Standards', description: 'Users in ANY application should be able to almost never have to second think their page navigation decisions.' },
-        { number: 3, title: 'Recognize Agile Scrum', description: 'I was able to adapt and be resilient in tough one week sprints and communicated effectively with the team.' },
+        { number: 1, title: 'Integrate Stripe API', description: 'Connected Stripe with Supabase backend and communicated with middleware.' },
+        { number: 2, title: 'Leverage Next.js for UI', description: 'layout.tsx is a powerful tool to integrate authentication and other components.' },
+        { number: 3, title: 'Well Rounded', description: 'I was more hands on with creating the Supabase schemas rather than purely just being frontend.' },
 
     ];
 
     return (
         <div>
             <div className="mt-10 rounded-lg bg-[#323232] p-4">
-                <h1 className="text-[#949494] text-sm">Personal Outcomes</h1>
+                <h1 className="text-[#949494] text-sm">Learning Outcomes</h1>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-2">
                     {metrics.map((metric) => (
                         <MetricCard
@@ -28,12 +28,9 @@ export default function OutcomesTakeaways() {
                 <h1 className="text-[#949494] text-sm">Takeaways</h1>
 
                 <p className={"text-sm mt-1"}>
-                    {/* eslint-disable-next-line react/no-unescaped-entities */}
-                    This was the first time I got my feet wet in developing a full-stack app through WPI's project-based learning in the Agile Scrum methodology. Our designs needed a
-                    180 turn to bring professionalism into the picture, and with extensive research on existing capabilities, my new proposed designs became our backbone.
-                    {/* eslint-disable-next-line react/no-unescaped-entities */}
-                    &nbsp;This privilege opened many doors for me, and it blossomed my passion into being a frontend developer, focusing intensively on UI's impact. If I could do this course
-                    again with the knowledge I have, I'm confident that my coding etiquette and UI can bring this application to 200% (I can center a div now :\ ).
+                    I had so much fun throughout this entire process, and this was a great opportunity to use the Next.js framework for the first time and see much powerful it is
+                    with server-side rendering and directory capabilities against regular React.js. The UI side was definitely the easiest part, but integrating the Stripe API and its webhooks
+                    into the application was super hard (so many linesss). Ready to see more out there!
                 </p>
 
             </div>

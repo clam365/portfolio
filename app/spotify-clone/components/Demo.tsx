@@ -5,29 +5,18 @@ import Link from "next/link";
 export default function Demo() {
     return (
         <div>
-
-            <h1 className="font-semibold text-gray-400 text-sm mt-3 tracking-widest mb-6">APPLICATION ITERATIONS</h1>
-
             <div>
                 <div className="mb-3 ">
-                    <p className="text-sm text-[#949494] mb-1">Initial Map</p>
+                    <p className="text-sm text-[#949494] mb-1">Home Page</p>
                     <p className="text-sm ">
-                        Though this image is blurry, the layout of the sections is enough to show that there is NO
-                        cohesiveness.
-                        It is hard to navigate from place to place as the selections to map is in FOUR different places,
-                        not one designated div.
-                        You choose floors on the top left dropdown, choose the location on the left sidebar, place the
-                        selection onto the bottom div, and plot on
-                        the map separately. The rest of the top bar selections is also just too much ex. Request List
-                        should be a pathway from Service Request.
-                        Color scheme is too harsh on the user.
+                        Responsive home page divided up into header, sidebar, and library, where the library contains the song modals and liked songs playlist.
                     </p>
                 </div>
                 <div className="bg-[#f2f2f2] rounded-lg p-10 flex justify-center m-auto ">
 
 
                     <Image alt={"old"}
-                           src="/oldMapPage.PNG"
+                           src="/spotify/spotifyHome.jpg"
                            className="rounded-lg w-fit h-full drop-shadow-xl"
                            width={1000} height={800}/>
 
@@ -35,22 +24,15 @@ export default function Demo() {
             </div>
             <div>
                 <div className="mb-3 mt-6">
-                    <p className="text-sm text-[#949494] mb-1">Final Map</p>
+                    <p className="text-sm text-[#949494] mb-1">Searching and Liking Songs</p>
                     <p className="text-sm ">
-                        Users can easily navigate through locations either from a search bar or quick pins. Using the
-                        tabs
-                        at the top, they
-                        can select levels along with common endpoints like bathrooms, elevators, etc. Directions
-                        encompass
-                        A*, BFS, DFS, and
-                        {/* eslint-disable-next-line react/no-unescaped-entities */}
-                        &nbsp;Dijkstra's Search Algorithms
+                        You can search up the songs you want in the database and like the songs to be put in your liked playlist.
                     </p>
                 </div>
                 <div className="bg-[#f2f2f2] rounded-lg p-10 flex flex-col justify-center m-auto ">
 
                     <video
-                        src="/mapDemo.mp4"
+                        src="/spotify/search.mp4"
                         className="rounded-lg w-fit h-full drop-shadow-xl"
                         autoPlay
                         loop
@@ -61,39 +43,34 @@ export default function Demo() {
 
             <div className="mt-12">
                 <div className="mb-3">
-                    <p className="text-sm text-[#949494] mb-1">Initial Service Requests</p>
+                    <p className="text-sm text-[#949494] mb-1">Upload a song</p>
                     <p className={"text-sm"}>
-                        This Figma mockup is too simplified and the page overall feels very blockly with web design trends from the early 2000s.
-                        Sure, the type of request tab area makes it accessible, but there's too much whitespace and the button/selection themes don't seem to match.
+                        Upload your wanted songs with its .mp3 file and its song cover with visual confirmation.
                     </p>
                 </div>
                 <div className="bg-[#f2f2f2] rounded-lg p-10 flex justify-center m-auto ">
-
-
-                    <Image alt={"old"}
-                           src="/oldRequestDesign.png"
-                           className="rounded-lg w-fit h-full drop-shadow-xl"
-                           width={750} height={500}/>
+                    <video
+                        src="/spotify/uploadSong.mp4"
+                        className="rounded-lg w-fit h-full drop-shadow-xl"
+                        autoPlay
+                        loop
+                        muted
+                    />
 
                 </div>
             </div>
 
             <div className="mb-3 mt-6">
                 <div className="mb-3">
-                    <p className="text-sm text-[#949494] mb-1">Final Service Requests</p>
+                    <p className="text-sm text-[#949494] mb-1">Subscribe to Spotify Premium</p>
                     <p className={"text-sm"}>
-                        Guests, Staff, and admin have different views of the requests, but can all send one depending on
-                        what it is. Total, there
-                        is Flower, Religious, Medicine, Transport, and Sanitation. Staff have the power to see all
-                        current requests and maintain them. Icons are in place to help bring easier recognition. Looking back, component
-                        scalability relative to monitor display should be in place here.
-
+                        Get Spotify Premium through Stripe API, where you can open up more features.
                     </p>
                 </div>
                 <div className="bg-[#f2f2f2] rounded-lg p-10 flex flex-col justify-center m-auto ">
 
                     <video
-                        src="/requestDemo.mp4"
+                        src="/spotify/premium.mp4"
                         className="rounded-lg w-fit h-full drop-shadow-xl"
                         autoPlay
                         loop
@@ -102,9 +79,9 @@ export default function Demo() {
                 </div>
             </div>
 
-            <Link href={"https://www.youtube.com/watch?v=eopEfoL5e4c"}>
+            <Link href={"https://spotify-ochre-kappa.vercel.app/"}>
                 <div className="rounded-lg p-4 bg-[#f2f2f2] mt-6 flex justify-between hover:bg-[#EEEEEE] transition">
-                    <h1 className={"text-sm"}>Check out the other features in this demo video!</h1>
+                    <h1 className={"text-sm"}>Check out the live demo to see it in action!</h1>
                     <ArrowRight/>
                 </div>
             </Link>

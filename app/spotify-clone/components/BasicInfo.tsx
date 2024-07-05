@@ -24,8 +24,8 @@ export default function BasicInfo() {
                 creators around the world" (Spotify).
                 <br/>
                 <br/>
-                Every year, I listen to on average 100,000 minutes of music, putting me in the top 10% of the world. I cherish music so much on this platform, such that I decided to
-                make a full stack Spotify Clone to mimic the real time app.
+                Every year, I listen to on average 100,000 minutes of music, putting me in the top 10% of the world. I cherish music so much on this platform, and its UI has always fascinated me.
+                To understand its layout and functionalities, I built this clone to mimic its basic functions and design.
                 <br/>
                 <br/>
                 <span className={"font-semibold"}>Technology Stack: </span> Next.js, React, Tailwind, Supabase,
