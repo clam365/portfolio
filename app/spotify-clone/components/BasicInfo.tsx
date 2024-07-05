@@ -19,9 +19,11 @@ export default function BasicInfo() {
 
             <hr className={"mt-6"}/>
             <p className={"mt-6 text-sm"}>
+                {/* eslint-disable-next-line react/no-unescaped-entities */}
                 "Spotify is a digital music, podcast, and video streaming service that offers access to millions of
                 songs, albums, podcasts, audiobook. and other content from
-                creators around the world" (Spotify).
+                {/* eslint-disable-next-line react/no-unescaped-entities */}
+                &nbsp;creators around the world" (Spotify).
                 <br/>
                 <br/>
                 Every year, I listen to on average 100,000 minutes of music, putting me in the top 10% of the world. I cherish music so much on this platform, and its UI has always fascinated me.
