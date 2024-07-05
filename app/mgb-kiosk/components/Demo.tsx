@@ -52,7 +52,7 @@ export default function Demo() {
                     <div className={""}>
                         <video
                             src="/mapDemo.mp4"
-                            className="hidden lg:block rounded-lg w-fit h-full drop-shadow-xl"
+                            className=" rounded-lg w-fit h-full drop-shadow-xl"
                             autoPlay
                             playsInline
                             loop
@@ -100,7 +100,7 @@ export default function Demo() {
                     <div className={""}>
                         <video
                             src="/requestDemo.mp4"
-                            className="hidden lg:block rounded-lg w-fit h-full drop-shadow-xl"
+                            className="rounded-lg w-fit h-full drop-shadow-xl"
                             autoPlay
                             playsInline
                             loop
