@@ -7,17 +7,17 @@ const Sidebar = () => {
             <div className="lg:hidden p-10 pt-6 flex justify-between m-auto items-center ">
                     <div>
                         <Link href="/">
-                            <Image src="/choso2.png" alt="logo" width={87} height={48} className="rounded-lg mb-6"/>
+                            <Image src="/choso2.png" alt="logo" width={87} height={48} className="rounded-lg mb-4 items-center"/>
                         </Link>
                     </div>
-                    <div className="flex ">
+                    <div className="flex scale-90 items-center">
                         <Link href={"/about"}>
-                            <h1 className="font-semibold text-lg mb-4 hover:text-gray-400 transition mr-5">About</h1>
+                            <h1 className="font-semibold text-md mb-4 hover:text-gray-400 transition mr-5">About</h1>
                         </Link>
                         <Link href={"/photography"}>
-                            <h1 className="font-semibold text-lg mb-4 hover:text-gray-400 transition mr-5">Photos</h1>
+                            <h1 className="font-semibold text-md mb-4 hover:text-gray-400 transition mr-5">Photos</h1>
                         </Link>
-                        <a href={"/resume.pdf"} target={"_blank"} rel={"opener referrer"} className="font-semibold text-lg mb-4 hover:text-gray-400 transition mr-5">Resume</a>
+                        <a href={"/resume.pdf"} target={"_blank"} rel={"opener referrer"} className="font-semibold text-md mb-4 hover:text-gray-400 transition mr-5">Resume</a>
 
                     </div>
             </div>

@@ -23,7 +23,7 @@ export default function Demo() {
                         Color scheme is too harsh on the user.
                     </p>
                 </div>
-                <div className="bg-[#f2f2f2] rounded-lg p-10 flex justify-center m-auto ">
+                <div className="bg-[#f2f2f2] rounded-lg p-4 md:p-10 flex justify-center m-auto ">
 
 
                     <Image alt={"old"}
@@ -47,15 +47,22 @@ export default function Demo() {
                         &nbsp;Dijkstra's Search Algorithms
                     </p>
                 </div>
-                <div className="bg-[#f2f2f2] rounded-lg p-10 flex flex-col justify-center m-auto ">
+                <div className="bg-[#f2f2f2] rounded-lg p-4 md:p-10 flex flex-col justify-center m-auto ">
 
-                    <video
-                        src="/mapDemo.mp4"
-                        className="rounded-lg w-fit h-full drop-shadow-xl"
-                        autoPlay
-                        loop
-                        muted
-                    />
+                    <div className={"hidden lg:flex"}>
+                        <video
+                            src="/mapDemo.mp4"
+                            className="rounded-lg w-fit h-full drop-shadow-xl"
+                            autoPlay
+                            loop
+                            muted
+                            width={1000} height={800}
+                        />
+                    </div>
+                    <div className={"flex lg:hidden"}>
+                        <Image src={"/mapDemoImage.jpg"} alt={"/mapdemo"} width={1000} height={800} className="rounded-lg w-fit h-full drop-shadow-xl"/>
+                    </div>
+
                 </div>
             </div>
 
@@ -68,7 +75,7 @@ export default function Demo() {
                         &nbsp;Sure, the type of request tab area makes it accessible, but there's too much whitespace and the button/selection themes don't seem to match.
                     </p>
                 </div>
-                <div className="bg-[#f2f2f2] rounded-lg p-10 flex justify-center m-auto ">
+                <div className="bg-[#f2f2f2] rounded-lg p-4 md:p-10 flex justify-center m-auto ">
 
 
                     <Image alt={"old"}
@@ -91,21 +98,28 @@ export default function Demo() {
 
                     </p>
                 </div>
-                <div className="bg-[#f2f2f2] rounded-lg p-10 flex flex-col justify-center m-auto ">
+                <div className="bg-[#f2f2f2] rounded-lg p-4 md:p-10 flex flex-col justify-center m-auto ">
 
-                    <video
-                        src="/requestDemo.mp4"
-                        className="rounded-lg w-fit h-full drop-shadow-xl"
-                        autoPlay
-                        loop
-                        muted
-                    />
+                    <div className={"hidden lg:flex"}>
+                        <video
+                            src="/requestDemo.mp4"
+                            className="rounded-lg w-fit h-full drop-shadow-xl"
+                            autoPlay
+                            loop
+                            muted
+                            width={1000} height={800}
+                        />
+                    </div>
+                    <div className={"flex lg:hidden"}>
+                        <Image src={"/requestDemoImage.jpg"} alt={"/mapdemo"} width={1000} height={800}
+                               className="rounded-lg w-fit h-full drop-shadow-xl"/>
+                    </div>
                 </div>
             </div>
 
             <Link href={"https://www.youtube.com/watch?v=eopEfoL5e4c"}>
                 <div className="rounded-lg p-4 bg-[#f2f2f2] mt-6 flex justify-between hover:bg-[#EEEEEE] transition">
-                    <h1 className={"text-sm"}>Check out the other features in this demo video!</h1>
+                <h1 className={"text-sm"}>Check out the other features in this demo video!</h1>
                     <ArrowRight/>
                 </div>
             </Link>

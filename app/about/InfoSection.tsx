@@ -7,12 +7,12 @@ export default function InfoSection() {
                 {/* Image Section */}
                 <div className="relative flex-shrink-0 w-[200px] h-[300px] mr-12 mb-8 hidden xl:block">
                     <Image
-                        src="/vietnam.jpg"
+                        src="/chrisLam.jpeg"
                         alt="Vietnam!"
                         layout="fill"
                         className="rounded-lg object-cover drop-shadow-sm"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-br from-white/100 to-transparent rounded-lg"/>
+
                 </div>
 
                 {/* Text Section */}

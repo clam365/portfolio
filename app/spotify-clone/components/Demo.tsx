@@ -12,7 +12,7 @@ export default function Demo() {
                         Responsive home page divided up into header, sidebar, and library, where the library contains the song modals and liked songs playlist.
                     </p>
                 </div>
-                <div className="bg-[#f2f2f2] rounded-lg p-10 flex justify-center m-auto ">
+                <div className="bg-[#f2f2f2] rounded-lg p-4 md:p-10 flex justify-center m-auto ">
 
 
                     <Image alt={"old"}
@@ -29,7 +29,7 @@ export default function Demo() {
                         You can search up the songs you want in the database and like the songs to be put in your liked playlist.
                     </p>
                 </div>
-                <div className="bg-[#f2f2f2] rounded-lg p-10 flex flex-col justify-center m-auto ">
+                <div className="bg-[#f2f2f2] rounded-lg p-4 md:p-10 flex flex-col justify-center m-auto ">
 
                     <video
                         src="/spotify/search.mp4"
@@ -37,6 +37,7 @@ export default function Demo() {
                         autoPlay
                         loop
                         muted
+                        width={1000} height={800}
                     />
                 </div>
             </div>
@@ -48,13 +49,14 @@ export default function Demo() {
                         Upload your wanted songs with its .mp3 file and its song cover with visual confirmation.
                     </p>
                 </div>
-                <div className="bg-[#f2f2f2] rounded-lg p-10 flex justify-center m-auto ">
+                <div className="bg-[#f2f2f2] rounded-lg p-4 md:p-10 flex justify-center m-auto ">
                     <video
                         src="/spotify/uploadSong.mp4"
                         className="rounded-lg w-fit h-full drop-shadow-xl"
                         autoPlay
                         loop
                         muted
+                        width={1000} height={800}
                     />
 
                 </div>
@@ -67,7 +69,7 @@ export default function Demo() {
                         Get Spotify Premium through Stripe API, where you can open up more features.
                     </p>
                 </div>
-                <div className="bg-[#f2f2f2] rounded-lg p-10 flex flex-col justify-center m-auto ">
+                <div className="bg-[#f2f2f2] rounded-lg p-4 md:p-10 flex flex-col justify-center m-auto ">
 
                     <video
                         src="/spotify/premium.mp4"
@@ -75,6 +77,7 @@ export default function Demo() {
                         autoPlay
                         loop
                         muted
+                        width={1000} height={800}
                     />
                 </div>
             </div>
