@@ -64,7 +64,8 @@ export default function Demo() {
                     <p className="text-sm text-[#949494] mb-1">Initial Service Requests</p>
                     <p className={"text-sm"}>
                         This Figma mockup is too simplified and the page overall feels very blockly with web design trends from the early 2000s.
-                        Sure, the type of request tab area makes it accessible, but there's too much whitespace and the button/selection themes don't seem to match.
+                        {/* eslint-disable-next-line react/no-unescaped-entities */}
+                        &nbsp;Sure, the type of request tab area makes it accessible, but there's too much whitespace and the button/selection themes don't seem to match.
                     </p>
                 </div>
                 <div className="bg-[#f2f2f2] rounded-lg p-10 flex justify-center m-auto ">

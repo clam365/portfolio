@@ -33,7 +33,8 @@ export default function OutcomesTakeaways() {
                     180 turn to bring professionalism into the picture, and with extensive research on existing capabilities, my new proposed designs became our backbone.
                     {/* eslint-disable-next-line react/no-unescaped-entities */}
                     &nbsp;This privilege opened many doors for me, and it blossomed my passion into being a frontend developer, focusing intensively on UI's impact. If I could do this course
-                    again with the knowledge I have, I'm confident that my coding etiquette and UI can bring this application to 200% (I can center a div now :\ ).
+                    {/* eslint-disable-next-line react/no-unescaped-entities */}
+                    &nbsp;again with the knowledge I have, I'm confident that my coding etiquette and UI can bring this application to 200% (I can center a div now :\ ).
                 </p>
 
             </div>
