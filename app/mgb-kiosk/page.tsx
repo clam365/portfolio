@@ -17,14 +17,14 @@ const fadeUpVariants = {
 export default function page() {
     return (
         <div className="lg:flex">
-            <Sidebar />
+            <div className={"z-10 fixed"}><Sidebar/></div>
             <motion.div
-                className="flex-1 lg:pt-0 sm: lg:ml-64 flex flex-col  "
+                className="flex-1 lg:pt-0 sm: lg:ml-64 flex flex-col  z-0"
                 initial="hidden"
                 animate="visible"
                 variants={fadeUpVariants}
             >
-                <div className={" flex flex-col justify-center m-auto"}>
+                <div className={" flex flex-col justify-center m-auto mt-28 lg:mt:0"}>
                     <Image src={"/mgbKiosk.jpg"} alt={"DCT"} width={1280} height={720}
                            className={" m-auto drop-shadow-2xl w-screen"}/>
                     <div className="p-12 md:p-20 lg:p-44 xl:p-60 lg:pt-10 xl:pt-16">

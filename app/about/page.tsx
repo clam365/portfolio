@@ -14,19 +14,19 @@ const fadeUpVariants = {
 export default function Page() {
     return (
         <div className="lg:flex">
-            <Sidebar />
+            <div className={"z-10 fixed"}><Sidebar/></div>
             <motion.div
-                className="flex-1 lg:pt-0 lg:ml-64 flex flex-col overflow-x-hidden"
+                className="flex-1 lg:pt-0 lg:ml-64 flex flex-col overflow-x-hidden z-0"
                 initial="hidden"
                 animate="visible"
                 variants={fadeUpVariants}
             >
-                <div className="flex flex-col justify-center m-auto">
+                <div className={" flex flex-col justify-center m-auto mt-28 lg:mt:0"}>
                     <div className="p-12 md:p-20 lg:p-20 xl:p-44 lg:pt-10 xl:pt-16">
-                        <Header />
-                        <InfoSection />
-                        <Education />
-                        <MyPhilosophy />
+                        <Header/>
+                        <InfoSection/>
+                        <Education/>
+                        <MyPhilosophy/>
                     </div>
                 </div>
             </motion.div>
