@@ -36,6 +36,7 @@ export default function Demo() {
                             src="/spotify/search.mp4"
                             className="hidden lg:block rounded-lg w-fit h-full drop-shadow-xl"
                             autoPlay
+                            playsInline
                             loop
                             muted
                             width={1000} height={800}
@@ -61,6 +62,7 @@ export default function Demo() {
                             src="/spotify/uploadSong.mp4"
                             className="hidden lg:block rounded-lg w-fit h-full drop-shadow-xl"
                             autoPlay
+                            playsInline
                             loop
                             muted
                             width={1250} height={800}
@@ -87,6 +89,7 @@ export default function Demo() {
                             src="/spotify/premium.mp4"
                             className="hidden lg:block rounded-lg w-fit h-full drop-shadow-xl"
                             autoPlay
+                            playsInline
                             loop
                             muted
                             width={1000} height={800}

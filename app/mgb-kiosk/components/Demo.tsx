@@ -54,6 +54,7 @@ export default function Demo() {
                             src="/mapDemo.mp4"
                             className="hidden lg:block rounded-lg w-fit h-full drop-shadow-xl"
                             autoPlay
+                            playsInline
                             loop
                             muted
                             width={1000} height={800}
@@ -105,6 +106,7 @@ export default function Demo() {
                             src="/requestDemo.mp4"
                             className="hidden lg:block rounded-lg w-fit h-full drop-shadow-xl"
                             autoPlay
+                            playsInline
                             loop
                             muted
                             width={1000} height={800}
