@@ -47,7 +47,7 @@ export default function ProjectSection2() {
                         <div className="drop-shadow-xl max-w-full mx-auto" ref={(el) => {
                             if (el) imageRefs.current[0] = el;
                         }}>
-                            <Image src="/dctCard.png" alt="DCT" width={450} height={600} className="drop-shadow-xl" />
+                            <Image src="/dctCard2.png" alt="DCT" width={450} height={600} className="drop-shadow-xl" />
                         </div>
                     </div>
                 </Link>
