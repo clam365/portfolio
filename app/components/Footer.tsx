@@ -5,7 +5,7 @@ export default function Footer() {
         <footer className={"p-6 pl-0 pr-0 pb-0 flex justify-between text-sm"}>
             <h1>Chris Lam</h1>
             <div className={"flex"}>
-                <a href="mailto:christpherlam365@gmail.com">
+                <a href="mailto:christopherlam110@gmail.com">
                     <p className="mr-2 lg:hidden">Email</p>
                 </a>
                 <Link href={"https://www.linkedin.com/in/chrislam365"}>
