@@ -48,11 +48,11 @@ export default function Research() {
                         <p className={"text-center mt-2 text-lg"}>Qualitative</p>
                     </div>
                     <div>
-                        <h1 className={"font-bold text-5xl text-center"}>90%</h1>
+                        <h1 className={"font-bold text-5xl text-center"}>70%</h1>
                         <p className={"text-center mt-2 text-lg"}>Surveys</p>
                     </div>
                     <div>
-                        <h1 className={"font-bold text-5xl text-center"}>90%</h1>
+                        <h1 className={"font-bold text-5xl text-center"}>50%</h1>
                         <p className={"text-center mt-2 text-lg"}>Quantitative</p>
                     </div>
                 </div>
