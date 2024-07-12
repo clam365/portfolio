@@ -34,6 +34,7 @@ export default function Research() {
                 </div>
             </div>
             <p className={"text-sm mt-10"}>
+                {/* eslint-disable-next-line react/no-unescaped-entities */}
                 We analyzed 20 unique IQP project papers to find common metrics in the way students collected data. To minimize error, all team members took part in reviewing another peer's
                 overview to check for any mistakes. Using the findings below,
                 we prioritized the highest percentages as our first sprints and progressed from there.
