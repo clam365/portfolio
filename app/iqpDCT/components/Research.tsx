@@ -34,15 +34,33 @@ export default function Research() {
                 </div>
             </div>
             <p className={"text-sm mt-10"}>
-                We analyzed 20 unique IQP project papers to find common metrics in the way they collected data. In our findings,
-                90% had interviews, 90% had qualitatives, 70% surveys, and 50% quantitatives. This allowed us to&nbsp;
-                <span className={"font-bold"}>prioritize</span>
-                &nbsp;the
-                highest needed features first in our 2 week sprints.
+                We analyzed 20 unique IQP project papers to find common metrics in the way students collected data. To minimize error, all team members took part in reviewing another peer's
+                overview to check for any mistakes. Using the findings below,
+                we prioritized the highest percentages as our first sprints and progressed from there.
+                <div className={"grid grid-cols-2 md:grid-cols-4 gap-y-6 mt-6"}>
+                    <div>
+                        <h1 className={"font-bold text-5xl text-center"}>90%</h1>
+                        <p className={"text-center mt-2 text-lg"}>Interviews</p>
+                    </div>
+                    <div>
+                        <h1 className={"font-bold text-5xl text-center"}>90%</h1>
+                        <p className={"text-center mt-2 text-lg"}>Qualitative</p>
+                    </div>
+                    <div>
+                        <h1 className={"font-bold text-5xl text-center"}>90%</h1>
+                        <p className={"text-center mt-2 text-lg"}>Surveys</p>
+                    </div>
+                    <div>
+                        <h1 className={"font-bold text-5xl text-center"}>90%</h1>
+                        <p className={"text-center mt-2 text-lg"}>Quantitative</p>
+                    </div>
+                </div>
                 <br/>
                 <br/>
-                Existing applications such as Fastfield and Jotfield allow form building, geotagging data, and exportation, but what
-                disadvantages to they have? Not free, complicated UI, and is intended for the electrical industries. Our application
+                Existing applications such as Fastfield and Jotfield allow form building, geotagging data, and
+                exportation, but what
+                disadvantages to they have? Not free, complicated UI, and is intended for the electrical industries. Our
+                application
                 will be&nbsp;
                 <span className={"font-bold"}>tailored</span>
                 &nbsp;to WPI students as a university service for free and aim to have a simple UI.
@@ -54,6 +72,7 @@ export default function Research() {
                 &nbsp;the current color palette and component structures so users can recognize similar layouts.
                 Using shadcn UI, our interface brings a new level to the frontier.
             </p>
+
         </div>
     )
 }
