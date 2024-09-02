@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Sidebar from "@/app/components/Sidebar";
 import ProjectSection2 from "@/app/components/ProjectSection2";
 import Footer from "@/app/components/Footer";
+import Freelance from "@/app/components/Freelance/Freelance";
 
 const fadeUpVariants = {
     hidden: { opacity: 0, y: 20 },
@@ -27,13 +28,14 @@ export default function Home() {
                                 Hello there!
                             </h1>
                             <p className="font-semibold text-2xl md:text-3xl  xl:text-4xl">
-                                My name is Chris Lam, and I am a full stack software engineer who specializes on frontend and UI/UX work, crafting meaningful
-                                user interfaces that feel natural and free-flowing. I am currently a data analyst intern with the Air Force.
+                                {/* eslint-disable-next-line react/no-unescaped-entities */}
+                                I'm Chris Lam, a full stack software engineer specializing in frontend and UI/UX design crafting meaningful free-flowing interfaces. Currently, I work as a website freelancer.
                             </p>
                         </div>
                         <hr className={"mt-10"}/>
 
                         <ProjectSection2/>
+                        <Freelance/>
                         <Footer/>
                     </div>
                 </div>

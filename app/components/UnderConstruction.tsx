@@ -1,10 +1,14 @@
-export default function UnderConstruction(){
+import React from "react";
+
+interface UnderConstructionProps {
+    text: string;
+}
+
+export const UnderConstruction: React.FC<UnderConstructionProps> = ({text}) => {
     return (
-        <div className={"bg-rose-100 rounded-lg p-3 border border-rose-500"}>
-            <h1 className="text-sm font-semibold text-rose-500">
-                This project is still under construction, but if you want to learn more about this project in detail, please
-                {/* eslint-disable-next-line react/no-unescaped-entities */}
-                &nbsp;reach out and let's chat!
+        <div className={"bg-orange-100 rounded-lg p-3 border border-orange-500"}>
+            <h1 className="text-sm font-semibold text-orange-500">
+                {text}
             </h1>
         </div>
     )
