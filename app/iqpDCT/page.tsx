@@ -8,6 +8,7 @@ import ContextProblemGoal from "@/app/iqpDCT/components/ContextProblemGoal";
 import GoToMGB from "@/app/iqpDCT/components/GoToMGB";
 import Research from "@/app/iqpDCT/components/Research";
 import Features from "@/app/iqpDCT/components/Features";
+import {UnderConstruction} from "@/app/components/UnderConstruction";
 
 const fadeUpVariants = {
     hidden: { opacity: 0, y: 20 },
@@ -35,6 +36,7 @@ export default function page() {
                         <ContextProblemGoal/>
                         <Research/>
                         <Features/>
+                        <UnderConstruction text={"This project is still under construction, but if you want to learn more about this project in detail, please reach out and let's chat!"}/>
                         <GoToMGB/>
                     </div>
                 </div>

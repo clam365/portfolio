@@ -11,7 +11,7 @@ export default function Features() {
     ];
 
     return (
-        <div className=" mb-10 rounded-lg justify-between">
+        <div className=" mb-10 rounded-lg justify-between mt-14">
             <h1 className="font-semibold text-gray-400 text-sm mt-3 tracking-widest mb-6">OUR SOLUTION</h1>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-2">
