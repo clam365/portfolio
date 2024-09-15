@@ -2,13 +2,12 @@
 import { motion } from "framer-motion";
 import Sidebar from "@/app/components/Sidebar";
 import Image from "next/image";
-import {UnderConstruction} from "@/app/components/UnderConstruction";
 import RoleDurationTeam from "@/app/iqpDCT/components/RoleDurationTeam";
 import BasicInfo from "@/app/iqpDCT/components/BasicInfo";
 import ContextProblemGoal from "@/app/iqpDCT/components/ContextProblemGoal";
 import GoToMGB from "@/app/iqpDCT/components/GoToMGB";
 import Research from "@/app/iqpDCT/components/Research";
-import Goals from "@/app/iqpDCT/components/Goals";
+import Features from "@/app/iqpDCT/components/Features";
 
 const fadeUpVariants = {
     hidden: { opacity: 0, y: 20 },
@@ -28,15 +27,14 @@ export default function page() {
                 <div className={" flex flex-col justify-center m-auto mt-28 lg:mt-0"}>
                     <Image src={"/dctMockup.png"} alt={"DCT"} width={1280} height={720}
                            className={" m-auto drop-shadow-2xl"}/>
-                    <div className="p-12 md:p-20 lg:p-44 xl:p-60 lg:pt-10 xl:pt-16">
+                    <div className="p-12 md:p-20 lg:p-44 lg:pt-10 xl:pt-16">
                         <BasicInfo/>
                         <hr className={"mt-10"}/>
                         <RoleDurationTeam/>
                         <hr className={"mt-12 mb-6"}/>
                         <ContextProblemGoal/>
                         <Research/>
-                        <Goals/>
-                        <UnderConstruction text={"The application is 100% completed! We are currently undergoing user testing to provide the best features for our fellow students."}/>
+                        <Features/>
                         <GoToMGB/>
                     </div>
                 </div>

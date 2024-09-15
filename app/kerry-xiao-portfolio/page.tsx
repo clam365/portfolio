@@ -4,6 +4,7 @@ import Sidebar from "@/app/components/Sidebar";
 import Image from "next/image";
 import BasicInfo from "@/app/kerry-xiao-portfolio/components/BasicInfo";
 import {UnderConstruction} from "@/app/components/UnderConstruction";
+import ProtoTypePhotos from "@/app/kerry-xiao-portfolio/components/ProtoTypePhotos";
 
 
 const fadeUpVariants = {
@@ -25,9 +26,11 @@ export default function page() {
                 <div className={" flex flex-col justify-center m-auto mt-28 lg:mt-0"}>
                     <Image src={"/freelance/kerry_website.PNG"} alt={"kerry"} width={1280} height={720}
                            className={" m-auto drop-shadow-2xl w-screen"}/>
-                    <div className="p-12 md:p-20 lg:p-44 xl:p-60 lg:pt-10 xl:pt-16">
+                    <div className="p-12 md:p-20 lg:p-44 lg:pt-10 xl:pt-16">
                         <BasicInfo/>
+                        <hr className={"mt-10"}/>
                         <br/>
+                        <ProtoTypePhotos/>
                         <UnderConstruction text={"This project is still under construction, but if you want to learn more about this project in detail, please reach out and let's chat!"}/>
                     </div>
                 </div>

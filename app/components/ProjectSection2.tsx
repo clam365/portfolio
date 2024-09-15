@@ -67,7 +67,7 @@ export default function ProjectSection2() {
                 CRAFT
             </h1>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6 justify-between">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-2 mt-6 justify-between">
                 <Link href={"iqpDCT"}>
                     <motion.div variants={itemVariants}>
                         <h1 className="text-2xl mb-3 tracking-wide font-light">IQP Data Tool</h1>

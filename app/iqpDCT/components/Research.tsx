@@ -35,10 +35,10 @@ export default function Research() {
             </div>
             <p className={"text-sm mt-10"}>
                 {/* eslint-disable-next-line react/no-unescaped-entities */}
-                We analyzed 20 unique IQP project papers to find common metrics in the way students collected data. To minimize error, all team members took part in reviewing another peer's
+                We analyzed <span className={"font-bold"}>20</span> unique IQP project papers to find common metrics in the way students collected data. To minimize error, all team members took part in reviewing another peer's
                 overview to check for any mistakes. Using the findings below,
                 we prioritized the highest percentages as our first sprints and progressed from there.
-                <div className={"grid grid-cols-2 md:grid-cols-4 gap-y-6 mt-6"}>
+                <div className={"grid grid-cols-2 md:grid-cols-4 gap-y-6 mt-10"}>
                     <div>
                         <h1 className={"font-bold text-5xl text-center"}>90%</h1>
                         <p className={"text-center mt-2 text-lg"}>Interviews</p>

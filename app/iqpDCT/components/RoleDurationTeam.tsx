@@ -3,7 +3,7 @@ export default function RoleDurationTeam() {
         <div className={"grid-cols-3 sm:grid-cols-2 mt-6 flex justify-between"}>
             <div>
                 <h1 className={"font-semibold  text-sm "}>Role</h1>
-                <p className={"text-sm"}>UI/UX Designer</p>
+                <p className={"text-sm"}>UI/UX Designer/Researcher</p>
                 <p className={"text-sm"}>Frontend Developer</p>
             </div>
             <div>
