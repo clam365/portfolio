@@ -71,7 +71,7 @@ export default function Features() {
             </div>
             <div className="mt-12">
                 <div className="mb-3">
-                    <p className="text-sm text-[#949494] mb-1">Geotag your Form Data with OpenStreetMapsAPI</p>
+                    <p className="text-sm text-[#949494] mb-1">Geotag your Form Data with OpenLayersMap API</p>
                     <p className={"text-sm"}>
                         Locate the entries you have logged at the location you took it at, or search up one using <span
                         className={"font-bold"}>NominatimAPI</span>. You can also put a time range on your data to see which data you collected between a time frame.
@@ -102,15 +102,15 @@ export default function Features() {
                 </div>
                 <div className="bg-[#f2f2f2] rounded-lg p-4 md:p-10 grid lg:grid-cols-2 gap-5 ">
                     <div>
-                        <p className={"text-gray-500"}>Manage Your Team</p>
+                        <p className={"text-gray-500 text-sm mb-0.5"}>Manage Your Team</p>
                         <img src={"/dct/manageTeam.PNG"} alt={"Image"} className={"rounded-md drop-shadow-md mb-5"}/>
-                        <p className={"text-gray-500"}>View Project Details</p>
+                        <p className={"text-gray-500 text-sm mb-0.5"}>View Project Details</p>
                         <img src={"/dct/projectDetails.PNG"} alt={"Image"} className={"rounded-md drop-shadow-md"}/>
                     </div>
                     <div>
-                        <p className={"text-gray-500"}>Help Page for Ease of Access</p>
+                        <p className={"text-gray-500 text-sm mb-0.5"}>Help Page for Ease of Access</p>
                         <img src={"/dct/help.PNG"} alt={"Image"} className={"rounded-md drop-shadow-md mb-5"}/>
-                        <p className={"text-gray-500"}>Help Icon Dialog</p>
+                        <p className={"text-gray-500 text-sm mb-0.5"}>Help Icon Dialog</p>
                         <img src={"/dct/question.PNG"} alt={"Image"} className={"rounded-md drop-shadow-md"}/>
                     </div>
                 </div>
