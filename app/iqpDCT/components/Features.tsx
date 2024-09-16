@@ -91,6 +91,26 @@ export default function Features() {
                     </div>
                 </div>
             </div>
+
+            <div className="mt-12">
+                <div className="mb-3">
+                    <p className="text-sm text-[#949494] mb-1">Project Management & Ease of Access</p>
+                    <p className={"text-sm"}>
+                        Manage your team and view their contributions, so you make sure everyone does their part. To help you out with this application, there is a
+                        help page and various help icon popup dialogs on specific pages needed.
+                    </p>
+                </div>
+                <div className="bg-[#f2f2f2] rounded-lg p-4 md:p-10 grid lg:grid-cols-2 gap-5 ">
+                    <div>
+                        <img src={"/dct/manageTeam.PNG"} alt={"Image"} className={"rounded-md drop-shadow-md mb-5"}/>
+                        <img src={"/dct/projectDetails.PNG"} alt={"Image"} className={"rounded-md drop-shadow-md"}/>
+                    </div>
+                    <div>
+                        <img src={"/dct/help.PNG"} alt={"Image"} className={"rounded-md drop-shadow-md mb-5"}/>
+                        <img src={"/dct/question.PNG"} alt={"Image"} className={"rounded-md drop-shadow-md"}/>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
