@@ -26,7 +26,7 @@ export default function page() {
                 variants={fadeUpVariants}
             >
                 <div className={" flex flex-col justify-center m-auto mt-28 lg:mt-0"}>
-                    <Image src={"/dctMockup.png"} alt={"DCT"} width={1280} height={720}
+                    <Image src={"/dashboard.png"} alt={"DCT"} width={1280} height={720}
                            className={" m-auto drop-shadow-2xl"}/>
                     <div className="p-12 md:p-20 lg:p-44 lg:pt-10 xl:pt-16">
                         <BasicInfo/>
