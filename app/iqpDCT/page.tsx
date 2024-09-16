@@ -8,9 +8,9 @@ import ContextProblemGoal from "@/app/iqpDCT/components/ContextProblemGoal";
 import GoToMGB from "@/app/iqpDCT/components/GoToMGB";
 import Research from "@/app/iqpDCT/components/Research";
 import Features from "@/app/iqpDCT/components/Features";
-import {UnderConstruction} from "@/app/components/UnderConstruction";
 import Takeaways from "@/app/iqpDCT/components/Takeaways";
 import FutureGoals from "@/app/iqpDCT/components/FutureGoals";
+import UserTesting from "@/app/iqpDCT/components/UserTesting";
 
 const fadeUpVariants = {
     hidden: { opacity: 0, y: 20 },
@@ -38,6 +38,7 @@ export default function page() {
                         <ContextProblemGoal/>
                         <Research/>
                         <Features/>
+                        <UserTesting/>
                         <FutureGoals/>
                         <Takeaways/>
                         <GoToMGB/>

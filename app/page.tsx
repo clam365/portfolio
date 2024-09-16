@@ -29,7 +29,8 @@ export default function Home() {
                             </h1>
                             <p className="font-semibold text-2xl md:text-3xl  xl:text-4xl">
                                 {/* eslint-disable-next-line react/no-unescaped-entities */}
-                                I'm Chris Lam, a full stack software engineer specializing in frontend and UI/UX design crafting meaningful free-flowing interfaces. Currently, I work as a website freelancer.
+                                I'm Chris Lam, a full stack software engineer specializing in frontend and UI/UX design crafting meaningful free-flowing interfaces.
+                                Currently, I work as a website freelancer and study CS at WPI.
                             </p>
                         </div>
                         <hr className={"mt-10"}/>

@@ -1,7 +1,6 @@
 export default function Takeaways() {
     return (
         <div className={"mt-6"}>
-            <hr/>
             <h1 className="font-semibold text-gray-400 text-sm mt-3 tracking-widest mb-6">REFLECTION & TAKEAWAYS</h1>
             <p className={"text-sm mt-1"}>
                 While playing a fullstack role in this capstone, my skills shined applying every aspect of UI/UX development, from <span className={"font-bold"}> user research, prototyping,
