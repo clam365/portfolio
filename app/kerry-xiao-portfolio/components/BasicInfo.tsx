@@ -1,4 +1,5 @@
 import Link from "next/link";
+import {ArrowRight} from "lucide-react";
 
 
 export default function BasicInfo() {
@@ -13,6 +14,12 @@ export default function BasicInfo() {
                 <span className={"font-bold"}>first ever client</span>
                 &nbsp;and showcase my abilities in the real world regarding website development.
             </p>
+            <Link href={"https://kerryxiao.vercel.app/"}>
+                <div className="rounded-lg p-4 bg-[#f2f2f2] mt-6 flex justify-between hover:bg-[#EEEEEE] transition">
+                    <h1 className={"text-sm"}>Check out the Portfolio</h1>
+                    <ArrowRight />
+                </div>
+            </Link>
         </div>
     )
 }
