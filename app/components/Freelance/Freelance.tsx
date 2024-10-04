@@ -7,8 +7,8 @@ export default function Freelance() {
                 FREELANCE WORK
             </h1>
             <div className={"flex gap-x-5 mt-6"}>
-                <FreelanceComponent text={"Kerry Xiao"} imagePath={"/freelance/kerry_website.PNG"} linkTo={"/kerry-xiao-portfolio"}/>
-
+                <FreelanceComponent text={"Kerry Xiao"} imagePath={"/freelance/kerry_website.PNG"} linkTo={"/kerry-xiao-portfolio"} imageWidth={150} imageHeight={100}/>
+                <FreelanceComponent text={"SaseHack"} imagePath={"/freelance/sasehack_logo.png"} linkTo={"/sasehack"} imageWidth={75} imageHeight={75}/>
             </div>
             <hr className={"mt-10"}/>
         </div>
