@@ -6,6 +6,7 @@ import BasicInfo from "@/app/sasehack/components/BasicInfo";
 import {UnderConstruction} from "@/app/components/UnderConstruction";
 import {ArrowRight} from "lucide-react";
 import Link from "next/link";
+import RoleDurationTeam from "@/app/sasehack/components/RoleDurationTeam";
 
 const fadeUpVariants = {
     hidden: { opacity: 0, y: 20 },
@@ -28,8 +29,9 @@ export default function page() {
                            className={" m-auto drop-shadow-2xl w-screen"}/>
                     <div className="p-12 md:p-20 lg:p-44 lg:pt-10 xl:pt-16">
                         <BasicInfo/>
-                        <br/>
-                        <UnderConstruction text={"This project is currently under production! Check out my other projects in the meantime!"}/>
+                        <hr className={"mt-10"}/>
+                        <RoleDurationTeam/>
+
                         <Link href={"/iqpDCT"}>
                             <div className="rounded-lg p-4 bg-[#f2f2f2] mt-6 flex justify-between hover:bg-[#EEEEEE] transition">
                                 <h1 className={"text-sm"}>Check out my work with IQP DCT</h1>
