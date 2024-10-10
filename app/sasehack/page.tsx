@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import Sidebar from "@/app/components/Sidebar";
 import Image from "next/image";
 import BasicInfo from "@/app/sasehack/components/BasicInfo";
-import {UnderConstruction} from "@/app/components/UnderConstruction";
 import {ArrowRight} from "lucide-react";
 import Link from "next/link";
 import RoleDurationTeam from "@/app/sasehack/components/RoleDurationTeam";
@@ -31,11 +30,13 @@ export default function page() {
                         <BasicInfo/>
                         <hr className={"mt-10"}/>
                         <RoleDurationTeam/>
+                        <hr className={"mt-12 mb-6"}/>
 
                         <Link href={"/iqpDCT"}>
-                            <div className="rounded-lg p-4 bg-[#f2f2f2] mt-6 flex justify-between hover:bg-[#EEEEEE] transition">
+                            <div
+                                className="rounded-lg p-4 bg-[#f2f2f2] mt-6 flex justify-between hover:bg-[#EEEEEE] transition">
                                 <h1 className={"text-sm"}>Check out my work with IQP DCT</h1>
-                                <ArrowRight />
+                                <ArrowRight/>
                             </div>
                         </Link>
                     </div>
