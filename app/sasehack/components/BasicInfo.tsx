@@ -21,11 +21,10 @@ export default function BasicInfo() {
                 an application designed to empower adolescents by getting involved with environmental protection by
                 understanding the meaning behind their&nbsp;
                 {/* eslint-disable-next-line react/no-unescaped-entities */}
-                "I know a spot" phrase. There were 31 team submissions and approximately 124 participants involved.
+                "I know a spot" phrase. There were 31 team submissions and approximately 124 participants were involved.
                 <br/>
                 <br/>
-                <span className={"font-semibold"}>Technology Stack: </span> React, Node.js, Express, Prisma, Axios,
-                Docker, AWS, Figma, Git, Tailwind, Trello, Tailwind
+                <span className={"font-semibold"}>Technology Stack: </span> Next.js, Pocketbase, Framer-Motion, GSAP, Typescript, Docker, Fly.io, OAuth, Shadcn. AceturnityUI, Google Maps API
             </p>
 
 
