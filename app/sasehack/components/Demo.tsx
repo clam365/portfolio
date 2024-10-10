@@ -1,10 +1,12 @@
 import Image from "next/image";
+import {ArrowRight} from "lucide-react";
+import Link from "next/link";
 
 export default function Demo() {
     return (
         <div>
 
-            <h1 className="font-semibold text-gray-400 text-sm mt-3 tracking-widest mb-6">APPLICATION ITERATIONS</h1>
+            <h1 className="font-semibold text-gray-400 text-sm mt-3 tracking-widest mb-6">FEATURES</h1>
 
             <div className="mb-3 mt-6">
                 <div className="mb-3">
@@ -108,7 +110,13 @@ export default function Demo() {
 
                 </div>
             </div>
-
+            <Link href={"https://wildscape.vercel.app/"}>
+                <div
+                    className="rounded-lg p-4 bg-[#f2f2f2] mt-6 flex justify-between hover:bg-[#EEEEEE] transition">
+                    <h1 className={"text-sm"}>Check out the deployed Wildscape!</h1>
+                    <ArrowRight/>
+                </div>
+            </Link>
 
         </div>
     )

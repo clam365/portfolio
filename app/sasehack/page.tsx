@@ -8,6 +8,8 @@ import Link from "next/link";
 import RoleDurationTeam from "@/app/sasehack/components/RoleDurationTeam";
 import ContextProblemGoal from "@/app/sasehack/components/ContextProblemGoal";
 import Demo from "@/app/sasehack/components/Demo";
+import FutureGoals from "@/app/sasehack/components/FutureGoals";
+import Takeaways from "@/app/sasehack/components/Takeaways";
 
 const fadeUpVariants = {
     hidden: { opacity: 0, y: 20 },
@@ -36,6 +38,9 @@ export default function page() {
                         <ContextProblemGoal/>
                         <hr className="mb-6"/>
                         <Demo/>
+                        <hr className="mt-10 "/>
+                        <FutureGoals/>
+                        <Takeaways/>
                         <Link href={"/iqpDCT"}>
                             <div
                                 className="rounded-lg p-4 bg-[#f2f2f2] mt-6 flex justify-between hover:bg-[#EEEEEE] transition">
