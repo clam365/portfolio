@@ -53,6 +53,9 @@ const Sidebar = () => {
                             className="text-sm mb-2 transition transform hover:translate-x-1 hover:text-gray-400">IQP
                             DCT</p>
                         </Link>
+                        <Link href={"/sasehack"}><p
+                            className="text-sm mb-2 transition transform hover:translate-x-1 hover:text-gray-400">Wildscape</p>
+                        </Link>
                         <Link href={"/mgb-kiosk"}><p
                             className="text-sm mb-2 transition transform hover:translate-x-1 hover:text-gray-400">MGB
                             Kiosk</p>

@@ -7,6 +7,7 @@ import {ArrowRight} from "lucide-react";
 import Link from "next/link";
 import RoleDurationTeam from "@/app/sasehack/components/RoleDurationTeam";
 import ContextProblemGoal from "@/app/sasehack/components/ContextProblemGoal";
+import Demo from "@/app/sasehack/components/Demo";
 
 const fadeUpVariants = {
     hidden: { opacity: 0, y: 20 },
@@ -33,6 +34,8 @@ export default function page() {
                         <RoleDurationTeam/>
                         <hr className={"mt-12 mb-6"}/>
                         <ContextProblemGoal/>
+                        <hr className="mb-6"/>
+                        <Demo/>
                         <Link href={"/iqpDCT"}>
                             <div
                                 className="rounded-lg p-4 bg-[#f2f2f2] mt-6 flex justify-between hover:bg-[#EEEEEE] transition">

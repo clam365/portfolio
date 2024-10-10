@@ -9,19 +9,20 @@ export default function Freelance() {
             <div
                 className="flex flex-col items-center space-y-4 sm:flex-row sm:space-y-0 sm:gap-x-5 sm:overflow-x-auto mt-6">
                 <FreelanceComponent
-                    text="Kerry Xiao"
-                    imagePath="/freelance/kerry_website.PNG"
-                    linkTo="/kerry-xiao-portfolio"
-                    imageWidth={150}
-                    imageHeight={100}
-                />
-                <FreelanceComponent
                     text="Wildscape"
                     imagePath="/freelance/wildscape_logo_green.png"
                     linkTo="/sasehack"
                     imageWidth={75}
                     imageHeight={75}
                 />
+                <FreelanceComponent
+                    text="Kerry Xiao"
+                    imagePath="/freelance/kerry_website.PNG"
+                    linkTo="/kerry-xiao-portfolio"
+                    imageWidth={150}
+                    imageHeight={100}
+                />
+
             </div>
 
 
